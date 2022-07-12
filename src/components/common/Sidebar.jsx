@@ -67,9 +67,9 @@ const Sidebar = ({ headerMenu, dynamic }) => {
           </div>
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
-              <a href="/">
+              <Link href="/">
                 <img src={dynamic ? "/" + "assets/img/logo/logo.png" : "assets/img/logo/logo.png"} alt="logo" />
-              </a>
+              </Link>
             </div>
             <div className="sidebar__search mb-25">
               <form action="#">
