@@ -54,6 +54,9 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                           <Link href="/blog">Blog</Link>
                         </li>
                         <li>
+                          <Link href="/careers">Careers</Link>
+                        </li>
+                        <li>
                           <Link href="/contact">Contact</Link>
                         </li>
                       </ul>
