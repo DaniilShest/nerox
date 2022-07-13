@@ -92,6 +92,10 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                   </div>
 
                   <div className="single_link iconAdd">
+                    <li onClick={() => setShowSidebar(false)}><Link href="/services"><a>Services</a></Link></li>
+                  </div>
+
+                  <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/blog"><a>Blog</a></Link></li>
                   </div>
                   <div className="single_link iconAdd border-0">
