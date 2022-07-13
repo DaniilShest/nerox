@@ -1,5 +1,6 @@
 import React from 'react';
 import BrandArea from '../common/BrandArea';
+import FooterThree from '../common/Footers/FooterThree';
 import Footer from '../common/Footers/Footer';
 import Header from '../common/Header';
 import About from './About';
@@ -25,6 +26,7 @@ const HomeFourMain = () => {
       <Testimonial />
       <Blog />
       <Footer />
+      <FooterThree />
     </>
   );
 };

@@ -6,6 +6,7 @@ import Lightbox from "react-image-lightbox";
 const Collapsible = dynamic(() => import("react-collapsible"), {
   ssr: false,
 });
+import servicesData from "../../data/servicesData";
 
 const Sidebar = ({ headerMenu, dynamic }) => {
   const { showSidebar, setShowSidebar } = useGlobalContext();
@@ -91,9 +92,19 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                     <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>About</a></Link></li>
                   </div>
 
-                  <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/services"><a>Services</a></Link></li>
-                  </div>
+                  <Collapsible trigger={<a>Services</a>} triggerTagName="div"
+                    triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
+                    <ul
+                      onClick={() => setShowSidebar(false)}
+                      className="sidebar_sub_menu submenu text-black">
+                      {servicesData.map(item => (
+                        <li key={item.id} onClick={() => setShowSidebar(false)}>
+                          <Link href={`/services/${item.url}`}>{item.title}</Link>
+                        </li>
+                      ))}
+
+                    </ul>
+                  </Collapsible>
 
                   <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/blog"><a>Blog</a></Link></li>

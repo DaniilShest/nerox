@@ -14,21 +14,21 @@ import servicesData from '../../data/servicesData';
 const ServiceDetails = () => {
     const router = useRouter();
     const [serviceItem, setServiceItem] = useState({});
-    const id = router.query.id;
+    const url = router.query.url;
 
     useEffect(() => {
-        if (!id) {
+        if (!url) {
 
         }
         else {
-            setServiceItem(servicesData.find(item => item.id == id))
+            setServiceItem(servicesData.find(item => item.url == url))
         }
-    }, [id])
+    }, [url])
 
     return (
         serviceItem ?
             <>
-                <SEO pageTitle="Profile Details" />
+                <SEO pageTitle={serviceItem.title} />
                 <Header dynamic={true} />
                 <Breadcrumb title={serviceItem.title} subtitle={serviceItem.title}
                     dynamic={"/" + "assets/img/breadcrumb/breadcrumb-bg-1.jpg"} />

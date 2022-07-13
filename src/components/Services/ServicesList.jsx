@@ -17,12 +17,12 @@ const ServicesList = () => {
                     </div>
                     <div className="tpservices__content">
                       <h4 className="tpservices__title mb-25">
-                        <Link href={`/services/${item.id}`}>
+                        <Link href={`/services/${item.url}`}>
                           <a>{item.title}</a>
                         </Link>
                       </h4>
                       <div className="tpservices__btn mt-30">
-                        <Link href={`/service-details/${item.id}`}>
+                        <Link href={`/service-details/${item.url}`}>
                           <a>
                             <span></span>
                             <span></span>

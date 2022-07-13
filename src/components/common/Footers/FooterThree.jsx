@@ -7,11 +7,11 @@ const FooterThree = () => {
         <div className="tpfooter-area fix">
           <div className="container-fluid p-0">
             <div className="row g-0">
-              <div className="col-xl-6">
+              {/* <div className="col-xl-6">
                 <div className="tp-map-area">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302985.8475600958!2d149.560983739693!3d-30.27574603682744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ba0d241d1e696e5%3A0x40609b49043baf0!2sNarrabri%20NSW%202390%2C%20Australia!5e0!3m2!1sen!2sbd!4v1649824907578!5m2!1sen!2sbd"></iframe>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xl-6">
                 <div className="tpfooter-wrapper pt-105 pb-70">
                   <div className="row">
