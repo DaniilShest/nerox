@@ -26,7 +26,7 @@ const sliderImg = [
 ]
 
 const BlogArea = () => {
-  const {show,handleShow,handleClose} = useGlobalContext()
+  const { show, handleShow, handleClose } = useGlobalContext()
   return (
     <>
       <section className="postbox__area pt-120 pb-80">
@@ -40,13 +40,13 @@ const BlogArea = () => {
                       <div className="postbox__thumb w-img mb-30">
                         <div className={item.class}>
                           {item.video ?
-                            <><Link href={`/blog-details/${item.id}`}>
+                            <><Link href={`/blog/blogs/${item.id}`}>
                               <a><img src={item.bigImg} alt="" />
-                              <div className="postbox__tag-wrapper">
-                                <span className="postbox__tag">Personal . Stories</span>
-                              </div></a>
+                                <div className="postbox__tag-wrapper">
+                                  <span className="postbox__tag">Personal . Stories</span>
+                                </div></a>
                             </Link> <button onClick={handleShow} className="play-btn pulse-btn popup-video">
-                              <i className="fas fa-play"></i></button></>
+                                <i className="fas fa-play"></i></button></>
                             : item.slider ? <>
                               <Swiper
                                 navigation={{ nextEl: '.tp-swiper-next', prevEl: '.tp-swiper-prev' }}
@@ -71,8 +71,8 @@ const BlogArea = () => {
                                   <i className="far fa-long-arrow-right"></i></button>
                                 <button className="tp-swiper-prev swiper-arrow">
                                   <i className="far fa-long-arrow-left"></i></button>
-                              </div> </> : <Link href={`/blog-details/${item.id}`}>
-                               <a ><img src={item.bigImg} alt="" /></a>
+                              </div> </> : <Link href={`/blog/blogs/${item.id}`}>
+                              <a ><img src={item.bigImg} alt="" /></a>
                             </Link>}
                         </div>
                         <div className="postbox__tag-wrapper">
@@ -81,12 +81,12 @@ const BlogArea = () => {
                       </div>
                       <div className="postbox__content">
                         <div className="postbox__meta">
-                          <span><a href="#"><i className="far fa-user"></i> {item.blogAuthor}</a></span>
+                          <span><i className="far fa-user"></i> {item.blogAuthor}</span>
                           <span><i className="far fa-calendar-check"></i> {item.date} </span>
-                          <span><a href="#"><i className="fal fa-comments"></i> 02 Comments</a></span>
+                          <span><i className="fal fa-comments"></i> 02 Comments</span>
                         </div>
                         <h3 className="postbox__title">
-                          <Link href={`/blog-details/${item.id}`}>
+                          <Link href={`/blog/blogs/${item.id}`}>
                             <a>{item.title}</a>
                           </Link>
                         </h3>
@@ -94,7 +94,7 @@ const BlogArea = () => {
                           <p>This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience. </p>
                         </div>
                         <div className="postbox__read-more">
-                          <Link href={`/blog-details/${item.id}`} className="tp-solid-btn">read more</Link>
+                          <Link href={`/blog/blogs/${item.id}`} className="tp-solid-btn">read more</Link>
                         </div>
                       </div>
                     </article>
@@ -102,7 +102,7 @@ const BlogArea = () => {
                 }
 
 
-                <div className="basic-pagination mb-50">
+                {/* <div className="basic-pagination mb-50">
                   <nav>
                     <ul>
                       <li>
@@ -126,7 +126,7 @@ const BlogArea = () => {
                       </li>
                     </ul>
                   </nav>
-                </div>
+                </div> */}
 
               </div>
             </div>

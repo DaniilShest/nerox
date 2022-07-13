@@ -1,6 +1,6 @@
 import React from 'react';
-import SEO from '../components/seo';
-import BlogGridMain from '../components/Blog-grid';
+import SEO from '../../components/seo';
+import BlogGridMain from '../../components/Blog-grid';
 
 const BlogGrid = () => {
   return (

@@ -3,7 +3,7 @@ import { Pagination, EffectFade } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
-const HeroSliderFour = () => {
+const HeroSlider = () => {
   const sliderData = [
     {
       id: 1,
@@ -35,7 +35,7 @@ const HeroSliderFour = () => {
             slidesPerView={1}
             effect="fade"
             pagination={{ clickable: true }}
-            autoplay={{ delay: 6000 }}
+            autoplay={{ delay: 5000 }}
           >
             {sliderData.slice(0, 6).map(item => {
               return (
@@ -79,4 +79,4 @@ const HeroSliderFour = () => {
   );
 };
 
-export default HeroSliderFour;
+export default HeroSlider;

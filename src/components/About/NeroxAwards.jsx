@@ -3,7 +3,7 @@ import Link from 'next/link';
 import awardData from '../../data/awardsData';
 
 const NeroxAwards = () => {
- 
+
   return (
     <>
       <div className="tp-award-area pt-135 pb-120">
@@ -20,23 +20,15 @@ const NeroxAwards = () => {
               {
                 awardData.map(item => (
                   <div key={item.id} className="tp-award-item mb-30">
-                    <div className="award-inner d-md-flex align-items-center">
+                    <div style={{ padding: "20px 0" }} className="award-inner d-md-flex align-items-center">
                       <div className="award-image">
                         <img src={item.img} alt="award-img" />
                       </div>
                       <div className="award-content">
-                        <h4 className="award-title">
-                          <Link href="/about-me"><a>{item.title}</a></Link>
+                        <h4 className="award-title">{item.title}
                         </h4>
                         <span className="award-meta">
                           <span className="award-year">2022..</span>  MNX Business Card</span>
-                      </div>
-                    </div>
-                    <div className="award-icon">
-                      <div className="award-icon-wrap">
-                        <Link href="/about-me">
-                          <a><i className="flaticon-right-arrow-1"></i></a>
-                        </Link>
                       </div>
                     </div>
                   </div>

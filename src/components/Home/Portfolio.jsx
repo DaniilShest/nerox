@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import portfolioData from '../../data/portfolioData';
 
-const PortfolioFour = () => {
+const Portfolio = () => {
   return (
     <>
       <div className="tpbs-project-area pt-120 pb-80">
@@ -58,4 +58,4 @@ const PortfolioFour = () => {
   );
 };
 
-export default PortfolioFour;
+export default Portfolio;

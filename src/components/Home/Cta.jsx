@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CtaFour = () => {
+const Cta = () => {
   return (
     <>
       <div className="tpbs-cta-area">
@@ -23,4 +23,4 @@ const CtaFour = () => {
   );
 };
 
-export default CtaFour;
+export default Cta;

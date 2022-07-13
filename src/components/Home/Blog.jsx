@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import blogData from '../../data/blogData';
 
-const BlogFour = () => {
+const Blog = () => {
   return (
     <>
       <div className="tpbs-blog-area pt-120 pb-120">
@@ -19,7 +19,7 @@ const BlogFour = () => {
                   <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
                     <div className="tpblog mb-30">
                       <div className="tpblog__thumb mb-30">
-                        <Link href={`/blog-details/${item.id}`}>
+                        <Link href={`/blog/blogs/${item.id}`}>
                           <a >
                             <img src={item.img4} alt="blog" />
                           </a>
@@ -31,7 +31,7 @@ const BlogFour = () => {
                           <span className="tpblog__date">{item.date}</span>
                         </div>
                         <h5 className="tpblog__title">
-                          <Link href={`/blog-details/${item.id}`}>
+                          <Link href={`/blog/blogs/${item.id}`}>
                             <a>{item.title}</a>
                           </Link>
                         </h5>
@@ -55,4 +55,4 @@ const BlogFour = () => {
   );
 };
 
-export default BlogFour;
+export default Blog;

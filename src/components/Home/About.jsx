@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const AboutFour = () => {
+const About = () => {
   return (
     <>
       <div className="tpbs-about-area pt-120 pb-120 p-relative">
@@ -59,4 +59,4 @@ const AboutFour = () => {
   );
 };
 
-export default AboutFour;
+export default About;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
-const BrandArea = ({hideTopBar = false,homeFiveBrand,brand,about,padd,dynamic}) => {
+const BrandArea = ({ hideTopBar = false, homeFiveBrand, brand, about, padd, dynamic }) => {
   const brandData = [
     {
       id: 1,
@@ -79,7 +79,7 @@ const BrandArea = ({hideTopBar = false,homeFiveBrand,brand,about,padd,dynamic}) 
                     return (
                       <SwiperSlide key={item.id}>
                         <div className="tpbrand__slider-item">
-                          <a href="#"><img src={item.img} alt="brand" /></a>
+                          <img src={item.img} alt="brand" />
                         </div>
                       </SwiperSlide>
                     )

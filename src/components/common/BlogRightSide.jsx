@@ -22,7 +22,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                   <ul>
                     <li>
                       <div className="feed-number">
-                        <Link href="/blog-details">
+                        <Link href="/blog/blogs/1">
                           <a>
                             <img src={dynamicRoute ? "/" + "assets/img/blog/small-news-1.jpg"
                               : "assets/img/blog/small-news-1.jpg"} alt="" />
@@ -33,12 +33,12 @@ const BlogRightSide = ({ dynamicRoute }) => {
                         <span className="feed-date">
                           <i className="fal fa-calendar-alt"></i> 20 March 2022
                         </span>
-                        <h6><Link href="/blog-details">Don’t Underestimate The Software Administration UX</Link></h6>
+                        <h6><Link href="/blog/blogs/1">Don’t Underestimate The Software Administration UX</Link></h6>
                       </div>
                     </li>
                     <li>
                       <div className="feed-number">
-                        <Link href="/blog-details">
+                        <Link href="/blog/blogs/1">
                           <a>
                             <img src={dynamicRoute ? "/" + "assets/img/blog/small-news-4.jpg"
                               : "assets/img/blog/small-news-4.jpg"} alt="" />
@@ -49,13 +49,13 @@ const BlogRightSide = ({ dynamicRoute }) => {
                         <span className="feed-date">
                           <i className="fal fa-calendar-alt"></i> 24th March 2022
                         </span>
-                        <h6><Link href="/blog-details">Better Product Pages Turn Visitors</Link>
+                        <h6><Link href="/blog/blogs/1">Better Product Pages Turn Visitors</Link>
                         </h6>
                       </div>
                     </li>
                     <li>
                       <div className="feed-number">
-                        <Link href="/blog-details">
+                        <Link href="/blog/blogs/1">
                           <a>
                             <img src={dynamicRoute ? "/" + "assets/img/blog/small-news-2.jpg"
                               : "assets/img/blog/small-news-2.jpg"} alt="" />
@@ -66,12 +66,12 @@ const BlogRightSide = ({ dynamicRoute }) => {
                         <span className="feed-date">
                           <i className="fal fa-calendar-alt"></i> 20 March 2022
                         </span>
-                        <h6><Link href="/blog-details">Orchestrating Complexity With Web Animations</Link></h6>
+                        <h6><Link href="/blog/blogs/1">Orchestrating Complexity With Web Animations</Link></h6>
                       </div>
                     </li>
                     <li>
                       <div className="feed-number">
-                        <Link href="/blog-details">
+                        <Link href="/blog/blogs/1">
                           <a>
                             <img src={dynamicRoute ? "/" + "assets/img/blog/small-news-3.jpg"
                               : "assets/img/blog/small-news-3.jpg"} alt="" />
@@ -82,7 +82,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                         <span className="feed-date">
                           <i className="fal fa-calendar-alt"></i> 24th March 2022
                         </span>
-                        <h6><Link href="/blog-details">The Rise Of Design Thinking As A Problem </Link>
+                        <h6><Link href="/blog/blogs/1">The Rise Of Design Thinking As A Problem </Link>
                         </h6>
                       </div>
                     </li>
@@ -95,7 +95,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                 <h6 className="sidebar-title">Categories</h6>
                 <ul className="n-sidebar-categories">
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/blog/blogs/1">
                       <a>
                         <div className="single-category p-relative mb-10">
                           <span>Business</span>
@@ -105,7 +105,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/blog/blogs/1">
                       <a>
                         <div className="single-category p-relative mb-10">
                           Consultant
@@ -115,7 +115,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/blog/blogs/1">
                       <a>
                         <div className="single-category p-relative mb-10">
                           Creative
@@ -125,7 +125,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/blog/blogs/1">
                       <a>
                         <div className="single-category p-relative mb-10">
                           UI/UX
@@ -135,7 +135,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/blog/blogs/1">
                       <a>
                         <div className="single-category p-relative">
                           Texhnology

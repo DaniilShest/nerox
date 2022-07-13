@@ -2,7 +2,7 @@ import Link from 'next/link';
 import useGlobalContext from '../../hooks/useGlobalContext';
 import VideoModal from '../common/VideoModal';
 
-const VideoAreaFour = () => {
+const VideoArea = () => {
   const { show, handleShow, handleClose } = useGlobalContext();
   return (
     <>
@@ -29,11 +29,6 @@ const VideoAreaFour = () => {
                       <h3 className="tpbs-title">Creating a Business with <br /> <span> exclusive features.</span></h3>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br /> nostrud exercitation ullamco</p>
-                    <div className="tpbs-video-button mt-50">
-                      <Link href="/portfolio-details">
-                        <a className="tpbs-btn-2">More Details <i className="fa-solid fa-arrow-right"></i></a>
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -47,4 +42,4 @@ const VideoAreaFour = () => {
   );
 };
 
-export default VideoAreaFour;
+export default VideoArea;

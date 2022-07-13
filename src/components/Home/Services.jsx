@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import servicesData from '../../data/servicesData';
 
-const ServicesFour = () => {
+const Services = () => {
   return (
     <>
       <div className="tpbs-services-area pb-120">
@@ -54,7 +54,7 @@ const ServicesFour = () => {
                     },
                   }}
                 >
-                  {servicesData.slice(8, 13).map(item => {
+                  {servicesData.map(item => {
                     return (
                       <SwiperSlide key={item.id}>
                         <div className="tpservices tpservices-tpbs">
@@ -63,13 +63,13 @@ const ServicesFour = () => {
                           </div>
                           <div className="tpservices__content">
                             <h4 className="tpservices__title mb-15">
-                              <Link href={`/service-details/${item.id}`}>
+                              <Link href={`/services/${item.id}`}>
                                 <a>{item.title}</a>
                               </Link>
                             </h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
                             <div className="tpservices__btn mt-30">
-                              <Link href={`/service-details/${item.id}`}>More Details</Link>
+                              <Link href={`/services/${item.id}`}>More Details</Link>
                             </div>
                           </div>
                         </div>
@@ -89,4 +89,4 @@ const ServicesFour = () => {
   );
 };
 
-export default ServicesFour;
+export default Services;

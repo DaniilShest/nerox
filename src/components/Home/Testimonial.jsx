@@ -2,7 +2,7 @@ import React from 'react';
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const TestimonialFour = () => {
+const Testimonial = () => {
   const testimonialData = [
     {
       id: 1,
@@ -58,7 +58,7 @@ const TestimonialFour = () => {
                         <div className="tpbs-review mb-40">
                           <p>{item.desc}</p>
                         </div>
-                        <span className="tpbs-client-name"><a href="#">{item.name}</a></span>
+                        <span className="tpbs-client-name">{item.name}</span>
                       </div>
                     </SwiperSlide>
                   )
@@ -83,4 +83,4 @@ const TestimonialFour = () => {
   );
 };
 
-export default TestimonialFour;
+export default Testimonial;
