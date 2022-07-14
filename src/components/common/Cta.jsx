@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-const Cta = ({padd}) => {
+const Cta = ({ padd }) => {
   return (
     <>
-      <div className={`tp-photograper-cta-2 pt-55 pb-100 ${padd ? padd : ''}`}>
+      <div className={`tp-photograper-cta-2 pt-55 pb-55 ${padd ? padd : ''}`}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
