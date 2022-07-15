@@ -63,13 +63,13 @@ const Services = () => {
                           </div>
                           <div className="tpservices__content">
                             <h4 className="tpservices__title mb-15">
-                              <Link href={`/services/${item.id}`}>
+                              <Link href={`/services/${item.url}`}>
                                 <a>{item.title}</a>
                               </Link>
                             </h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
                             <div className="tpservices__btn mt-30">
-                              <Link href={`/services/${item.id}`}>More Details</Link>
+                              <Link href={`/services/${item.url}`}>More Details</Link>
                             </div>
                           </div>
                         </div>

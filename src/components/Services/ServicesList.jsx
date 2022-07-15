@@ -22,7 +22,7 @@ const ServicesList = () => {
                         </Link>
                       </h4>
                       <div className="tpservices__btn mt-30">
-                        <Link href={`/service-details/${item.url}`}>
+                        <Link href={`/services/${item.url}`}>
                           <a>
                             <span></span>
                             <span></span>

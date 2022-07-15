@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const FooterTwo = () => {
@@ -66,9 +67,12 @@ const FooterTwo = () => {
               </div>
               <div className="col-xl-6 col-lg-5">
                 <div className="copyright-links">
-                  <a href="#">Terms and conditions</a>
-                  <a href="#">Privacy policy</a>
-                  <a href="#">Contact</a>
+                  <Link href="/privacy">
+                    <a >Privacy policy</a>
+                  </Link>
+                  <Link href="/contact">
+                    <a >Contact</a>
+                  </Link>
                 </div>
               </div>
             </div>
