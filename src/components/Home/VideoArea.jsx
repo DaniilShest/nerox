@@ -28,7 +28,7 @@ const VideoArea = () => {
                       <span className="tpbs-sub-title mb-15">Наша глобольная цель</span>
                       <h3 className="tpbs-title">Создание бизнеса с индивидуальными <br /> функциями.</h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br /> nostrud exercitation ullamco</p>
+                    <p>Предвидеть и опережать! Мы объединяем и реализуем возможности высоких технологий, научных разработок и профессиональных специалистов. Создавая новые и совершенствуя уже проверенные решения, развивая инженерно-техническую и проектную культуру, мы ведем мировое общество по пути инновационных технологий. </p>
                   </div>
                 </div>
               </div>

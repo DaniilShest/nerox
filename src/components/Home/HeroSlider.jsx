@@ -9,19 +9,19 @@ const HeroSlider = () => {
       id: 1,
       bg: 'assets/img/slider/slider-2-1.jpg',
       title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <>Рост <span>бизнеса</span></>
+      subtitle: <><span>Рост</span> бизнеса</>
     },
     {
       id: 2,
       bg: 'assets/img/slider/slider-2-1.jpg',
       title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <>Business <span>Health</span></>
+      subtitle: <><span>Здоровье</span> бизнеса</>
     },
     {
       id: 3,
       bg: 'assets/img/slider/slider-2-1.jpg',
       title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <>Business <span>Strong</span></>
+      subtitle: <><span>Сила</span> бизнеса</>
     },
   ]
   return (

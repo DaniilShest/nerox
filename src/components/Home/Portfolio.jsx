@@ -9,8 +9,8 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="tpbs-section-wrapper text-center mb-30">
-                <span className="tpbs-sub-title mb-15">Our Portfolio</span>
-                <h3 className="tpbs-title">Latest & <span> Greatest Project</span></h3>
+                <span className="tpbs-sub-title mb-15">Портфолио</span>
+                <h3 className="tpbs-title">Последние проекты</h3>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         </h4>
                         <div className="tpbs-project-btn mt-20">
                           <Link href={`/portfolio-details/${item.id}`}>
-                            <a className="tpbs-btn-2">More Details <i className="fa-solid fa-arrow-right"></i></a>
+                            <a className="tpbs-btn-2">Подробнее <i className="fa-solid fa-arrow-right"></i></a>
                           </Link>
                         </div>
                       </div>
