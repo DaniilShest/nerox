@@ -18,10 +18,10 @@ const About = () => {
             <div className="col-xl-7 col-lg-7">
               <div className="tps-about tps-about-wrap">
                 <div className="tpbs-section-wrapper mb-30">
-                  <span className="tpbs-sub-title mb-15">About us</span>
-                  <h3 className="tpbs-title">We provide full-service <br /> <span>digital capabilities.</span></h3>
+                  <span className="tpbs-sub-title mb-15">О нас</span>
+                  <h3 className="tpbs-title">Мы предоставляем<br />полный спектр цифровых услуг.</h3>
                 </div>
-                <p className="ab-text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br /> veniam, quis nostrud exercitation ullamco</p>
+                <p className="ab-text mb-30">Мы собрали команду лучших разработчиков, чтобы заказчики всегда были довольны! Вы можете доверить специалистам организации любую работу, связанную с веб-дизайном.</p>
                 <div className="features__list">
                   <ul>
                     <li className="d-flex align-items-center">
@@ -29,7 +29,7 @@ const About = () => {
                         <i className="far fa-check"></i>
                       </div>
                       <div className="features__list-text">
-                        <p>We deliver perfect solutions</p>
+                        <p>Мы предлагаем идеальные решения</p>
                       </div>
                     </li>
                     <li className="d-flex align-items-center">
@@ -37,14 +37,14 @@ const About = () => {
                         <i className="far fa-check"></i>
                       </div>
                       <div className="features__list-text">
-                        <p>We work with global brands</p>
+                        <p>Работаем с мировыми брендами</p>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="tpbs-button mt-50">
                   <Link href="/about">
-                    <a className="tp-solid-btn">Learn MOre</a>
+                    <a className="tp-solid-btn">Узнать подробнее</a>
                   </Link>
                 </div>
               </div>

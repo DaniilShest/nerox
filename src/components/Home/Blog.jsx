@@ -8,8 +8,8 @@ const Blog = () => {
         <div className="container">
           <div className="row">
             <div className="tpbs-section-wrapper text-center mb-30">
-              <span className="tpbs-sub-title mb-15">Blog & Article</span>
-              <h3 className="tpbs-title">Read Our <span> Blog & Article</span></h3>
+              <span className="tpbs-sub-title mb-15">НАШ БЛОГ</span>
+              <h3 className="tpbs-title">Читайте наш блог</h3>
             </div>
           </div>
           <div className="row mt-30">

@@ -42,22 +42,22 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                     <nav id="mobile-menu">
                       <ul>
                         <li>
-                          <Link href="/">Home</Link>
+                          <Link href="/">Главная</Link>
                         </li>
                         <li>
-                          <Link href="/about">About</Link>
+                          <Link href="/about">О нас</Link>
                         </li>
                         <li>
-                          <Link href="/services">Services</Link>
+                          <Link href="/services">Услуги</Link>
                         </li>
                         <li>
-                          <Link href="/blog">Blog</Link>
+                          <Link href="/blog">Блог</Link>
                         </li>
                         <li>
-                          <Link href="/careers">Careers</Link>
+                          <Link href="/careers">Вакансии</Link>
                         </li>
                         <li>
-                          <Link href="/contact">Contact</Link>
+                          <Link href="/contact">Контакты</Link>
                         </li>
                       </ul>
                     </nav>

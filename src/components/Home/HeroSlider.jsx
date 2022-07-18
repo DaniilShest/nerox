@@ -8,19 +8,19 @@ const HeroSlider = () => {
     {
       id: 1,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE FEATURES',
-      subtitle: <>Business <span>Growth</span></>
+      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
+      subtitle: <>Рост <span>бизнеса</span></>
     },
     {
       id: 2,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE METARIALS',
+      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
       subtitle: <>Business <span>Health</span></>
     },
     {
       id: 3,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE SUPPORT',
+      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
       subtitle: <>Business <span>Strong</span></>
     },
   ]
@@ -50,7 +50,7 @@ const HeroSlider = () => {
                             <h3 className="tpbs-slider__item-title">{item.subtitle}</h3>
                             <div className="tpbs-btn mt-40">
                               <Link href="/contact">
-                                <a className="tp-solid-btn">Free Consultation</a>
+                                <a className="tp-solid-btn">Бесплатная консультация</a>
                               </Link>
                             </div>
                           </div>

@@ -68,10 +68,10 @@ const FooterTwo = () => {
               <div className="col-xl-6 col-lg-5">
                 <div className="copyright-links">
                   <Link href="/privacy">
-                    <a >Privacy policy</a>
+                    <a >Политика конфеденциальности</a>
                   </Link>
                   <Link href="/contact">
-                    <a >Contact</a>
+                    <a>Контакты</a>
                   </Link>
                 </div>
               </div>
