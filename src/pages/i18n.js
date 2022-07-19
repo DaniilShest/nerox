@@ -23,7 +23,7 @@ i18n
             escapeValue: false
         },
         backend: {
-            loadPath: 'https://nerox-daniilshest.vercel.app/public/locales/{{lng}}/translation.json',
+            loadPath: '/locales/{{lng}}/translation.json',
             crossDomain: true
         },
     })
