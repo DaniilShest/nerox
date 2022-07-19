@@ -3,6 +3,7 @@ import AppProvider from '../context/AppContext';
 // настройки плагина
 import './i18n';
 import '../index.scss';
+
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
