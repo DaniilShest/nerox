@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 export default function privacy() {
     return (
         <>
-            <SEO pageTitle="Privacy Policy" />
+            <SEO pageTitle="Политика конфиденциальности" />
             <Privacy />
         </>
     )

@@ -9,7 +9,7 @@ import Portfolio from './Portfolio';
 import Services from './Services';
 import Testimonial from './Testimonial';
 import VideoArea from './VideoArea';
-import FooterTwo from '../common/Footers/FooterTwo';
+import Footer from '../common/Footer';
 
 const HomeFourMain = () => {
   return (
@@ -24,7 +24,7 @@ const HomeFourMain = () => {
       <BrandArea hideTopBar={true} />
       <Testimonial />
       <Blog />
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

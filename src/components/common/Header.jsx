@@ -56,9 +56,6 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                         <li>
                           <Link href="/careers">Вакансии</Link>
                         </li>
-                        <li>
-                          <Link href="/contact">Контакты</Link>
-                        </li>
                       </ul>
                     </nav>
                   </div>

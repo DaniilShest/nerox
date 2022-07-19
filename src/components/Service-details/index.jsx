@@ -1,7 +1,7 @@
 import React from 'react';
 import BrandArea from '../common/BrandArea';
 import Breadcrumb from '../common/Breadcrumb';
-import FooterTwo from '../common/Footers/FooterTwo';
+import Footer from '../common/Footer';
 import Header from '../common/Header';
 import ServiceContact from './ServiceContact';
 import ServiceDetailsArea from './ServiceDetailsArea';
@@ -14,7 +14,7 @@ const index = () => {
       <ServiceDetailsArea />
       <ServiceContact />
       <BrandArea padd="services-padd" />
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

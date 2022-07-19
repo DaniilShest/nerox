@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from './common/Breadcrumb';
-import FooterTwo from './common/Footers/FooterTwo';
+import Footer from './common/Footer';
 import Header from './common/Header';
 
 const Privacy = () => {
@@ -8,14 +8,11 @@ const Privacy = () => {
     return (
         <>
             <Header />
-            <Breadcrumb title="Privacy Policy" subtitle="Privacy Policy" />
-
             <div className="services-details-area pt-140 pb-105">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
-                            <h4 className="services-d-title mb-25">Privacy Policy</h4>
-                            <p className="services-text mb-25">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+                            <h4 className="services-d-title mb-25">Политика конфиденциальности</h4>
                             <h5 className="services-sm-title mb-25">СОГЛАСИЕ</h5>
                             <p>Если вы не согласны с условиями настоящей Политики конфиденциальности, не посещайте и не используйте веб-сайты EPAM. Если вы хотите прекратить получать маркетинговые материалы EPAM, нажмите кнопку «Отменить подписку» в маркетинговом электронном письме, которое вы получили от нас.
                             </p>
@@ -133,8 +130,8 @@ const Privacy = () => {
                     </div>
                 </div>
             </div >
-            {/*FooterTwo  */}
-            < FooterTwo />
+            {/*Footer  */}
+            < Footer />
 
         </>
     );

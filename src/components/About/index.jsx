@@ -1,7 +1,7 @@
 import React from 'react';
 import BrandArea from '../common/BrandArea';
 import Breadcrumb from '../common/Breadcrumb';
-import FooterTwo from '../common/Footers/FooterTwo';
+import Footer from '../common/Footer';
 import Header from '../common/Header';
 import TestimonialFour from '../Home/Testimonial';
 import AboutArea from './AboutArea';
@@ -13,14 +13,14 @@ const index = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="ABOUT NEROX" subtitle=" About Us" />
+      <Breadcrumb title="О NEROX" subtitle="О нас" />
       <AboutArea />
       <AboutCounter />
       <CtaImages />
       <BrandArea brand="-2" about="about-brand" />
       <TestimonialFour />
       <NeroxAwards />
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

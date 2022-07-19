@@ -19,9 +19,9 @@ const About = () => {
               <div className="tps-about tps-about-wrap">
                 <div className="tpbs-section-wrapper mb-30">
                   <span className="tpbs-sub-title mb-15">О нас</span>
-                  <h3 className="tpbs-title">Мы предоставляем<br />полный спектр цифровых услуг.</h3>
+                  <h3 className="tpbs-title">Мы предоставляем<br /> полный услуг веб-разработки.</h3>
                 </div>
-                <p className="ab-text mb-30">Мы собрали команду лучших разработчиков, чтобы заказчики всегда были довольны! Вы можете доверить специалистам организации любую работу, связанную с веб-дизайном.</p>
+                <p className="ab-text mb-30">Мы собрали команду лучших разработчиков, чтобы заказчики всегда были довольны! Вы можете доверить специалистам организации любую работу, связанную с веб-разработкой.</p>
                 <div className="features__list">
                   <ul>
                     <li className="d-flex align-items-center">

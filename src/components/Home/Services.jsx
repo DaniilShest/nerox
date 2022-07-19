@@ -13,7 +13,7 @@ const Services = () => {
             <div className="col-xl-7 col-lg-7 col-md-10">
               <div className="tpbs-section-wrapper mb-30">
                 <span className="tpbs-sub-title mb-15">Наши услуги</span>
-                <h3 className="tpbs-title">Наш сервис оснащен<br />эксклюзивными решениями.</h3>
+                <h3 className="tpbs-title">Наш сервис оснащен <br />следующими решениями:</h3>
               </div>
             </div>
             <div className="col-xl-5 col-lg-5 col-md-2">

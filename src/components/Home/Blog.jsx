@@ -44,7 +44,7 @@ const Blog = () => {
             <div className="col-xl-12">
               <div className="tpbs-blog-button text-center mt-30">
                 <Link href="/blog">
-                  <a className="tp-solid-btn">Смотерть больше проектов</a>
+                  <a className="tp-solid-btn">Читать больше статей</a>
                 </Link>
               </div>
             </div>

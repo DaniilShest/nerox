@@ -1,22 +1,9 @@
 import * as Yup from 'yup';
 
 const schema = Yup.object().shape({
-  name: Yup.string().required().label("Name"),
-  email: Yup.string().required().email().label("Email"),
-  subject: Yup.string().required().min(10).label("Subject"),
-  msg: Yup.string().required().min(20).label("Message"),
+  name: Yup.string().required("Обязательное поле").label("Имя"),
+  email: Yup.string().required("Обязательное поле").email().label("Email"),
+  msg: Yup.string().required("Обязательное поле").min(20).label("Сообщение"),
 });
 
 export default schema;
-
-export const loginSchema = Yup.object().shape({
-  email: Yup.string().required().email().label("Email"),
-  password: Yup.string().required().min(6).label("Password"),
-});
-export const registerSchema = Yup.object().shape({
-  name: Yup.string().required().label("Name"),
-  email: Yup.string().required().email().label("Email"),
-  password: Yup.string().required().min(6).label("Password"),
-  confirmPassword: Yup.string().required('Please retype your password.')
-  .oneOf([Yup.ref('password')], 'Your passwords do not match.'),
-});

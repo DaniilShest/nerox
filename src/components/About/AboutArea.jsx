@@ -13,7 +13,7 @@ const AboutArea = () => {
                 <p className="tpab-text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="tpabout-btn mt-50">
-                  <Link href="/contact"><a className="tp-solid-btn">Get in touch</a></Link>
+                  <Link href="/contact"><a className="tp-solid-btn">Связаться с нами</a></Link>
                 </div>
               </div>
             </div>
