@@ -11,7 +11,10 @@ import Testimonial from './Testimonial';
 import VideoArea from './VideoArea';
 import Footer from '../common/Footer';
 
+import { useTranslation } from "react-i18next";
+
 const HomeFourMain = () => {
+
   return (
     <>
       <Header />
