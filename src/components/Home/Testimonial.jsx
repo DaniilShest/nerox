@@ -7,26 +7,20 @@ const Testimonial = () => {
     {
       id: 1,
       img: 'assets/img/testimonial/3/ts-1.jpg',
-      desc: <>“ I appreciate your amazing services and professional staff for all <br /> your hard work and creative thinking! It was fun, and I hope <br /> to work with you again soon “</>,
-      name: 'Rasalina Willams'
+      desc: <>“Я ценю ваши замечательные услуги и профессиональный персонал за всю вашу тяжелую работу и творческое мышление! Было весело, и я надеюсь, что скоро снова поработаю с вами.“</>,
+      name: 'Смирнов Дмитрий'
     },
     {
       id: 2,
       img: 'assets/img/testimonial/3/ts-2.jpg',
-      desc: <>“ A wonderful serenity has taken possession of my entire soul, like <br /> these sweet mornings of spring which I enjoy with my whole <br /> heart. I am alone, and feel the charm “</>,
-      name: 'John Doe'
+      desc: <>“В оговоренные сроки мы получили готовый сайт, отвечающий всем нашим требованиям, и синхронизированный со специфичными модулями для сферы туризма. Уже на протяжении полугода мы получаем заявки клиентов с сайта, затраты на сайт окупились в течение первого месяца.“</>,
+      name: 'Ковалев Даниил'
     },
     {
       id: 3,
       img: 'assets/img/testimonial/3/ts-3.jpg',
-      desc: <>“ I throw myself down among the tall grass by the trickling stream; and, <br /> as I lie close to the earth, a thousand unknown plants <br /> are noticed by me: when I hear the buzz “</>,
-      name: 'Mark Willams'
-    },
-    {
-      id: 4,
-      img: 'assets/img/testimonial/3/ts-4.jpg',
-      desc: <>“ I appreciate your amazing services and professional staff for all <br /> your hard work and creative thinking! It was fun, and I hope <br /> to work with you again soon “</>,
-      name: 'Rasalina Willams'
+      desc: <>“В 2021 году мы обратились в агентство Nerox для разработки СЕО сайта для нашей международной транспортной компании Nerox. В результате мы получили удобный и современный сайт с уникальными текстами в оговоренные сроки, а также настройку контекстной рекламы. Мы рекомендуем агентство нашим партнерам и филиалам в других странах.“</>,
+      name: 'Волков Игорь'
     },
   ]
   return (

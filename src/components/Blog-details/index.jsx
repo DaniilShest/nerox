@@ -1,16 +1,16 @@
 import React from 'react';
 import Breadcrumb from '../common/Breadcrumb';
-import FooterTwo from '../common/Footers/FooterTwo';
+import Footer from '../common/Footer';
 import Header from '../common/Header';
 import BlogDetailsArea from './BlogDetailsArea';
 
 const index = () => {
   return (
     <>
-      <Header/>
+      <Header />
       <Breadcrumb title="Blog Details" subtitle="Blog Details" />
-      <BlogDetailsArea/>
-      <FooterTwo/>
+      <BlogDetailsArea />
+      <Footer />
     </>
   );
 };

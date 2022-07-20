@@ -2,6 +2,7 @@ import React from 'react';
 import SEO from '../../components/seo';
 import JobDetailsMain from '../../components/Job-details';
 import { useRouter } from 'next/router';
+import Router from 'next/router';
 import { jobListData } from '../../data/joblistData';
 import { useState, useEffect } from 'react';
 
@@ -18,10 +19,14 @@ const JobDetails = () => {
     }
   }, [url])
   return (
-    <>
-      <SEO pageTitle={joblistItem.title} />
-      <JobDetailsMain item={joblistItem} />
-    </>
+    joblistItem
+      ?
+      <>
+        <SEO pageTitle={joblistItem.title} />
+        <JobDetailsMain item={joblistItem} />
+      </>
+      :
+      Router.push('/404')
   );
 };
 

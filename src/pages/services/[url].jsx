@@ -3,10 +3,9 @@ import dynamic from 'next/dynamic';
 import React, { useEffect, useState } from 'react';
 import BrandArea from '../../components/common/BrandArea';
 import Breadcrumb from '../../components/common/Breadcrumb';
-import FooterTwo from '../../components/common/Footers/FooterTwo';
+import Footer from '../../components/common/Footer';
 import Header from '../../components/common/Header';
 import SEO from '../../components/seo';
-import ServiceContact from '../../components/Service-details/ServiceContact';
 import Router from 'next/router'
 
 import servicesData from '../../data/servicesData';
@@ -15,6 +14,7 @@ const ServiceDetails = () => {
     const router = useRouter();
     const [serviceItem, setServiceItem] = useState({});
     const url = router.query.url;
+    console.log(serviceItem === true)
 
     useEffect(() => {
         if (!url) {
@@ -50,11 +50,8 @@ const ServiceDetails = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <h4 className="services-d-title mb-25">{serviceItem.title}</h4>
-                                <p className="services-text mb-25">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
-                                <p className="services-text mb-45">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Error sit voluptatem accusantium doloremque,</p>
+                                {serviceItem.description}
                                 <h5 className="services-sm-title mb-25">4 Simple Steps</h5>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                                </p>
                                 <div className="row mt-70">
                                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                         <div className="step-item text-center mb-30">
@@ -108,16 +105,14 @@ const ServiceDetails = () => {
                     </div>
                 </div>
 
-                {/* ServiceContact */}
-                <ServiceContact />
                 {/*BrandArea  */}
                 <BrandArea padd="services-padd" dynamic={true} />
-                {/*FooterTwo  */}
-                <FooterTwo />
+                {/*Footer  */}
+                <Footer />
 
             </>
             :
-            Router.push('/hello-nextjs')
+            Router.push('/404')
     );
 };
 

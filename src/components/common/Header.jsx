@@ -42,22 +42,19 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                     <nav id="mobile-menu">
                       <ul>
                         <li>
-                          <Link href="/">Home</Link>
+                          <Link href="/">Главная</Link>
                         </li>
                         <li>
-                          <Link href="/about">About</Link>
+                          <Link href="/about">О нас</Link>
                         </li>
                         <li>
-                          <Link href="/services">Services</Link>
+                          <Link href="/services">Услуги</Link>
                         </li>
                         <li>
-                          <Link href="/blog">Blog</Link>
+                          <Link href="/blog">Блог</Link>
                         </li>
                         <li>
-                          <Link href="/careers">Careers</Link>
-                        </li>
-                        <li>
-                          <Link href="/contact">Contact</Link>
+                          <Link href="/careers">Вакансии</Link>
                         </li>
                       </ul>
                     </nav>
@@ -67,11 +64,6 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                   !headerEight && <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                     <div className="tp-header-action">
                       <ul>
-                        <li className="d-none d-sm-inline-block">
-                          <button onClick={() => setSearchOpen(true)} href="#" className="search">
-                            <i className="fas fa-search"></i>
-                          </button>
-                        </li>
                         <li >
                           <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
                             <i className="fas fa-bars"></i>

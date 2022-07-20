@@ -7,12 +7,11 @@ import Breadcrumb from '../../../components/common/Breadcrumb';
 import Header from '../../../components/common/Header';
 import SEO from '../../../components/seo';
 import blogData from '../../../data/blogData';
-import BlogRightSide from '../../../components/common/BlogRightSide';
 import VideoModal from '../../../components/common/VideoModal';
 import useGlobalContext from '../../../hooks/useGlobalContext';
-import FooterTwo from '../../../components/common/Footers/FooterTwo';
 import { useFormik } from 'formik';
 import ErrorMsg from '../../../components/common/ErrorMsg';
+import Footer from '../../../components/common/Footer';
 
 
 
@@ -109,142 +108,14 @@ const BlogDetails = () => {
                                         <a href="#">website</a>
                                     </div>
                                 </div>
-                                <h4 className="rcpost-title mt-50 mb-50">Recent Post:</h4>
-                                <div className="row">
-                                    {recentBlog.map(item => (
-                                        <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">
-                                            <div className="blog-grid-item mb-50">
-                                                <div className="blog-grid-thumb mb-30">
-                                                    <div className="grid-image w-img">
-                                                        <img src={"/" + item.gridImg} alt="blog-img" />
-                                                    </div>
-                                                </div>
-                                                <div className="blog-grid-content">
-                                                    <span className="blog-grid-tag mb-20">{item.category}</span>
-                                                    <h4 className="blog-grid-title mb-15">
-                                                        <Link href={`/blog-details/${item.id}`}><a>{item.title}</a></Link>
-                                                    </h4>
-                                                    <span className="blog-grid-date">
-                                                        <i className="fa-light fa-calendar-days"></i> {item.date}</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ))}
-
-                                </div>
-                                <div className="postbox__comment border-top pt-60 mb-65">
-                                    <div className="postbox-meta mb-30">
-                                        <h3 className="postbox__comment-title">3 Comments</h3>
-                                        <div className="postshare-option mb-20">
-                                            <h3 className="postbox-share-title">Share</h3>
-                                            <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-                                            <a href="#"><i className="fa-brands fa-pinterest"></i></a>
-                                            <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <div className="postbox__comment-box">
-                                                <div className="postbox__comment-info d-flex">
-                                                    <div className="postbox__comment-avater mr-20">
-                                                        <img src={"/" + "assets/img/blog/comments/comment-1.jpg"} alt="" />
-                                                    </div>
-                                                    <div className="postbox__comment-name">
-                                                        <h5>Johan Ritaxon</h5>
-                                                        <span className="post-meta"> July 14, 2022</span>
-                                                    </div>
-                                                </div>
-                                                <div className="postbox__comment-text ml-65">
-                                                    <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David blatant have it, standard A bit of how your father my lady absolutely.</p>
-                                                    <div className="postbox__comment-reply">
-                                                        <a href="#">Reply</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li className="children">
-                                            <div className="postbox__comment-box">
-                                                <div className="postbox__comment-info d-flex">
-                                                    <div className="postbox__comment-avater mr-20">
-                                                        <img src={"/" + "assets/img/blog/comments/comment-2.jpg"} alt="" />
-                                                    </div>
-                                                    <div className="postbox__comment-name">
-                                                        <h5>Rohan De Spond</h5>
-                                                        <span className="post-meta"> July 14, 2022</span>
-                                                    </div>
-                                                </div>
-                                                <div className="postbox__comment-text ml-65">
-                                                    <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David blatant have it, standard A bit of how your father my lady absolutely.</p>
-                                                    <div className="postbox__comment-reply">
-                                                        <a href="#">Reply</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="postbox__comment-box">
-                                                <div className="postbox__comment-info d-flex">
-                                                    <div className="postbox__comment-avater mr-20">
-                                                        <img src={"/" + "assets/img/blog/comments/comment-3.jpg"} alt="" />
-                                                    </div>
-                                                    <div className="postbox__comment-name">
-                                                        <h5>Iqbal Hossain</h5>
-                                                        <span className="post-meta"> July 14, 2022</span>
-                                                    </div>
-                                                </div>
-                                                <div className="postbox__comment-text ml-65">
-                                                    <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David blatant have it, standard A bit of how your father my lady absolutely.</p>
-                                                    <div className="postbox__comment-reply">
-                                                        <a href="#">Reply</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="postbox__comment-form border-top pt-60">
-                                    <h3 className="postbox__comment-form-title">Post a Comment :</h3>
-                                    <form onSubmit={handleSubmit}>
-                                        <div className="row">
-                                            <div className="col-xxl-6 col-xl-6 col-lg-6">
-                                                <div className="postbox__comment-input">
-                                                    <input id='name' value={values.name} onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Enter Your Name" />
-                                                    {touched.name && <ErrorMsg error={errors.name} />}
-                                                </div>
-                                            </div>
-                                            <div className="col-xxl-6 col-xl-6 col-lg-6">
-                                                <div className="postbox__comment-input">
-                                                    <input id='email' value={values.email} onChange={handleChange} onBlur={handleBlur} type="email" placeholder="Enter Your Email" />
-                                                    {touched.email && <ErrorMsg error={errors.email} />}
-                                                </div>
-                                            </div>
-                                            <div className="col-xxl-12">
-                                                <div className="postbox__comment-input">
-                                                    <textarea id='msg' value={values.msg} onChange={handleChange} onBlur={handleBlur} placeholder="Write  Your Comment..."></textarea>
-                                                    {touched.msg && <ErrorMsg error={errors.msg} />}
-                                                </div>
-                                            </div>
-                                            <div className="col-xxl-12">
-                                                <div className="postbox__comment-btn mt-10">
-                                                    <button type="submit" className="tp-solid-btn">Post Comment</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
                             </div>
                         </div>
-                        {/* BlogRightSide */}
-                        <BlogRightSide dynamicRoute={true} />
-                        {/* BlogRightSide */}
                     </div>
                 </div>
             </section>
 
             {/* Footer start */}
-            <FooterTwo />
+            <Footer />
             {/* Footer end */}
 
 

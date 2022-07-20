@@ -50,7 +50,7 @@ const JobDetailsArea = ({ item }) => {
                   </ul>
                 </div>
                 <div className="job-feature-image w-img mt-55 mb-55">
-                  <img src="assets/img/about/job-dimg.jpg" alt="job-details-img" />
+                  <img src="../../assets/img/about/job-dimg.jpg" alt="job-details-img" />
                 </div>
                 <h5 className="privacy-title mb-20"><b>Your</b> responsibilities :</h5>
                 <div className="job-dtext-wrapper">

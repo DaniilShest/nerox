@@ -1,7 +1,5 @@
 import React from 'react';
 import BrandArea from '../common/BrandArea';
-import FooterThree from '../common/Footers/FooterThree';
-import Footer from '../common/Footers/Footer';
 import Header from '../common/Header';
 import About from './About';
 import Blog from './Blog';
@@ -11,6 +9,7 @@ import Portfolio from './Portfolio';
 import Services from './Services';
 import Testimonial from './Testimonial';
 import VideoArea from './VideoArea';
+import Footer from '../common/Footer';
 
 const HomeFourMain = () => {
   return (
@@ -26,7 +25,6 @@ const HomeFourMain = () => {
       <Testimonial />
       <Blog />
       <Footer />
-      <FooterThree />
     </>
   );
 };

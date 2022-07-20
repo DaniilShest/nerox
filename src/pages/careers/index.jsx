@@ -5,7 +5,7 @@ import SEO from '../../components/seo';
 const JobList = () => {
     return (
         <>
-            <SEO pageTitle="Careers" />
+            <SEO pageTitle="Вакансии" />
             <JobListMain />
         </>
     );

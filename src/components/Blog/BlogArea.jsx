@@ -3,7 +3,6 @@ import { Navigation, Pagination, Autoplay } from "swiper";
 import Link from 'next/link';
 
 import blogData from '../../data/blogData';
-import BlogRightSide from '../common/BlogRightSide';
 import useGlobalContext from '../../hooks/useGlobalContext';
 import VideoModal from '../common/VideoModal';
 
@@ -130,9 +129,6 @@ const BlogArea = () => {
 
               </div>
             </div>
-            {/* blog right side start */}
-            <BlogRightSide />
-            {/* blog right side end */}
           </div>
         </div>
       </section>

@@ -20,7 +20,7 @@ const JobListArea = () => {
                     <span className="job-name">Product Management </span>
                     <span className="job-state mt-100">
                       <Link href={`/careers/${item.url}`}>
-                        <a>Ongoing</a>
+                        <a>Проектная работа</a>
                       </Link>
                     </span>
                   </div>
@@ -30,7 +30,7 @@ const JobListArea = () => {
                     <span className="job-type">Poland (Poznań or remote work)</span>
                     <div className="job-btn mt-40">
                       <Link href={`/careers/${item.url}`}>
-                        <a className="tp-solid-btn-square">Apply now</a>
+                        <a className="tp-solid-btn-square">Откликнуться</a>
                       </Link>
                     </div>
                   </div>

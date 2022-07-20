@@ -36,12 +36,12 @@ const BrandArea = ({ hideTopBar = false, homeFiveBrand, brand, about, padd, dyna
   return (
     <>
       <section id="brand" className={`tpbrand-area${brand ? brand : ''} 
-      ${hideTopBar ? 'pt-135 pb-115' : `pt-115 pb-40 ${homeFiveBrand && 'pb-120'}`} ${about && about} ${padd && padd}`}>
+      ${hideTopBar ? 'pt-135 pb-115' : `pt-20 pb-40 ${homeFiveBrand && 'pb-120'}`} ${about && about} ${padd && padd}`}>
         <div className="container">
           <div className="row">
             {!hideTopBar && <div className="col-xl-12">
               <div className="tp-section-title text-center mb-50">
-                <span className="tp-sub-title">#Top Integration</span>
+                <span className="tp-sub-title">#Нам доверяют</span>
               </div>
             </div>}
           </div>
