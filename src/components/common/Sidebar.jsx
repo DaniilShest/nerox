@@ -114,23 +114,6 @@ const Sidebar = ({ headerMenu, dynamic }) => {
             <div className={`sidebar__text ${headerMenu ? 'd-none' : 'd-none d-lg-block'}`}>
               <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and will give you a complete account of the system and expound the actual teachings of the great explore</p>
             </div>
-            <div className={`sidebar__img ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-20`}>
-              <div className="row gx-2">
-                {galleryImages.map((image, index) => (
-                  <div key={image.id} className="col-4">
-                    <div onClick={() => setShowSidebar(false)}
-                      className="sidebar__single-img w-img mb-10">
-                      <button onClick={() => setOpen(true)} className="popup-image">
-                        <a onClick={() => setPhotoIndex(index)}>
-                          <img src={`${image.img}`} alt="" />
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                ))}
-
-              </div>
-            </div>
             <div className={`sidebar__map ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-15`}>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29176.030811137334!2d90.3883827!3d23.924917699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1605272373598!5m2!1sen!2sbd"></iframe>
             </div>

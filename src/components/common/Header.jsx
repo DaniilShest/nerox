@@ -4,19 +4,12 @@ import useSticky from '../../hooks/use-sticky';
 import Link from 'next/link';
 import useGlobalContext from '../../hooks/useGlobalContext';
 import Sidebar from './Sidebar';
-import { useTranslation } from "react-i18next";
 
 const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) => {
   const { theme, setTheme } = useTheme();
   const { headerSticky } = useSticky();
   const [searchOpen, setSearchOpen] = useState(false);
   const { setShowSidebar } = useGlobalContext();
-
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
 
   return (
     <>
@@ -65,11 +58,8 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                         </li>
                       </ul>
                     </nav>
-                    <button onClick={() => changeLanguage("en")}>EN</button>
-                    <button onClick={() => changeLanguage("ru")}>RU</button>
                   </div>
                 </div>
-
                 {
                   !headerEight && <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                     <div className="tp-header-action">

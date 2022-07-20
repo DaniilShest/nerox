@@ -51,54 +51,33 @@ const ServiceDetails = () => {
                             <div className="col-xl-12">
                                 <h4 className="services-d-title mb-25">{serviceItem.title}</h4>
                                 {serviceItem.description}
-                                <h5 className="services-sm-title mb-25">4 Simple Steps</h5>
+                                <h5 className="services-sm-title mb-25">4 простых шага</h5>
                                 <div className="row mt-70">
-                                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                                        <div className="step-item text-center mb-30">
-                                            <div className="step-number-wrapper">
-                                                <span className="step-number">01</span>
-                                            </div>
-                                            <h6 className="step-title mt-40">Step One</h6>
-                                            <p>Sed quia non numquam eius <br /> modi tempora incidunt s</p>
-                                            <div className="step-item-shape shape-1">
-                                                <img src={"/" + "assets/img/shape/arrow-shape-1.png"} alt="arrow-shape" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                                        <div className="step-item text-center mb-30">
-                                            <div className="step-number-wrapper">
+                                    {
+                                        serviceItem.steps ?
+                                            serviceItem.steps.map((el, id) => (
+                                                <div key={id} className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                                    <div className="step-item text-center mb-30">
+                                                        <div className="step-number-wrapper">
+                                                            <span className="step-number">0{id + 1}</span>
+                                                        </div>
+                                                        <h6 className="step-title mt-40">{el.title}</h6>
+                                                        <p>{el.text}</p>
+                                                        {id === 3
+                                                            ?
+                                                            <></>
+                                                            :
+                                                            <div className="step-item-shape shape-1 d-none d-lg-block">
+                                                                <img src={"/" + "assets/img/shape/arrow-shape-2.png"} alt="arrow-shape" />
+                                                            </div>
+                                                        }
 
-                                                <span className="step-number">02</span>
-                                            </div>
-                                            <h6 className="step-title mt-40">Step Two</h6>
-                                            <p>Sed quia non numquam eius <br /> modi tempora incidunt s</p>
-                                            <div className="step-item-shape shape-1 d-none d-lg-block">
-                                                <img src={"/" + "assets/img/shape/arrow-shape-2.png"} alt="arrow-shape" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                                        <div className="step-item text-center mb-30">
-                                            <div className="step-number-wrapper">
-                                                <span className="step-number">03</span>
-                                            </div>
-                                            <h6 className="step-title mt-40">Step Three</h6>
-                                            <p>Sed quia non numquam eius <br /> modi tempora incidunt s</p>
-                                            <div className="step-item-shape shape-1">
-                                                <img src={"/" + "assets/img/shape/arrow-shape-1.png"} alt="arrow-shape" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                                        <div className="step-item text-center mb-30">
-                                            <div className="step-number-wrapper">
-                                                <span className="step-number">04</span>
-                                            </div>
-                                            <h6 className="step-title mt-40">Step Four</h6>
-                                            <p>Sed quia non numquam eius <br /> modi tempora incidunt s</p>
-                                        </div>
-                                    </div>
+                                                    </div>
+                                                </div>
+                                            ))
+                                            :
+                                            <></>
+                                    }
                                 </div>
                             </div>
                         </div>

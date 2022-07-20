@@ -1,11 +1,9 @@
-import { useTranslation } from "react-i18next";
 import Link from 'next/link';
 import { Pagination, EffectFade } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
 const HeroSlider = () => {
-  const { t, i18n } = useTranslation();
   const sliderData = [
     {
       id: 1,
@@ -52,7 +50,7 @@ const HeroSlider = () => {
                             <h3 className="tpbs-slider__item-title">{item.subtitle}</h3>
                             <div className="tpbs-btn mt-40">
                               <Link href="/contact">
-                                <a className="tp-solid-btn">{t('title')}</a>
+                                <a className="tp-solid-btn">Бесплатная консультация</a>
                               </Link>
                             </div>
                           </div>
