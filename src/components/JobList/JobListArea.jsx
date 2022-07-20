@@ -17,7 +17,7 @@ const JobListArea = () => {
                         <a>{item.title}</a>
                       </Link>
                     </h5>
-                    <span className="job-name">Product Management </span>
+                    <span className="job-name">{item.subtitle}</span>
                     <span className="job-state mt-100">
                       <Link href={`/careers/${item.url}`}>
                         <a>Проектная работа</a>
@@ -25,9 +25,7 @@ const JobListArea = () => {
                     </span>
                   </div>
                   <div className="col-xxl-4 col-xl-5 col-lg-6">
-                    <h5 className="job-list-sm-title mb-20">{item.subtitle}</h5>
-                    <span className="job-sm-name mb-30">PLN 9 500 - 14 600 Gross (Employment Contract) </span>
-                    <span className="job-type">Poland (Poznań or remote work)</span>
+                    <h5 className="job-list-sm-title mb-20">Зарплата: <br /><br /> от {item.salary}</h5>
                     <div className="job-btn mt-40">
                       <Link href={`/careers/${item.url}`}>
                         <a className="tp-solid-btn-square">Откликнуться</a>
