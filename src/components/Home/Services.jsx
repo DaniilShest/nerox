@@ -36,6 +36,7 @@ const Services = () => {
                   slidesPerView={1}
                   navigation={{ nextEl: '.tp-swiper-next', prevEl: '.tp-swiper-prev', }}
                   autoplay={{ delay: 6000 }}
+                  autoHeight={true}
                   breakpoints={{
                     0: {
                       slidesPerView: 1,

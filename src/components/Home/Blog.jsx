@@ -21,13 +21,13 @@ const Blog = () => {
                       <div className="tpblog__thumb mb-30">
                         <Link href={`/blog/blogs/${item.id}`}>
                           <a >
-                            <img src={item.img4} alt="blog" />
+                            <img src={item.img} alt="blog" />
                           </a>
                         </Link>
                       </div>
                       <div className="tpblog__content">
                         <div className="tpblog__meta mb-25">
-                          <span className="tpblog__catagory">Business..</span>
+                          <span className="tpblog__catagory">{item.category}</span>
                           <span className="tpblog__date">{item.date}</span>
                         </div>
                         <h5 className="tpblog__title">

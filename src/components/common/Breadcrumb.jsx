@@ -5,7 +5,7 @@ const Breadcrumb = ({ title, subtitle, dynamic }) => {
     <>
       <section className="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" style={{
         backgroundImage:
-          `url(${dynamic ? dynamic : 'assets/img/breadcrumb/breadcrumb-bg-1.jpg'})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'
+          `url(${dynamic ? dynamic : '/assets/img/breadcrumb/breadcrumb-bg-1.jpg'})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'
       }}>
         <div className="container">
           <div className="row">

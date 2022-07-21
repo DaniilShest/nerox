@@ -11,7 +11,7 @@ const NeroxAwards = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="section-wrapper text-center">
-                <h3 className="tpabout-xd-title mb-15"><b>Neorox</b> Награды</h3>
+                <h3 className="tpabout-xd-title mb-15">Награды <b>Neorox</b></h3>
               </div>
             </div>
           </div>

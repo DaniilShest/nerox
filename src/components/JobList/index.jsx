@@ -12,7 +12,6 @@ const index = () => {
       <Header />
       <Breadcrumb title="Вакансии" subtitle="Вакансии" />
       <JobListArea />
-      <Cta />
       <BrandArea padd="job-list" />
       <Footer />
     </>

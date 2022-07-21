@@ -26,8 +26,8 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                         {
                           dynamic && <img src={"/" + "assets/img/logo/logo.png"} alt="logo" />
                         }
-                        {!dynamic && homeNine ? <img src="assets/img/logo/logo-white.png" alt="logo" />
-                          : !dynamic && <img src="assets/img/logo/logo.png" alt="logo" />}
+                        {!dynamic && homeNine ? <img src="/assets/img/logo/logo-white.png" alt="logo" />
+                          : !dynamic && <img src="/assets/img/logo/logo.png" alt="logo" />}
                       </a>
                     </Link>
                   </div>

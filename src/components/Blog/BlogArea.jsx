@@ -6,7 +6,7 @@ import blogData from '../../data/blogData';
 import useGlobalContext from '../../hooks/useGlobalContext';
 import VideoModal from '../common/VideoModal';
 
-const blogItems = blogData.slice(0, 3);
+const blogItems = blogData;
 
 
 const sliderImg = [
@@ -35,7 +35,7 @@ const BlogArea = () => {
               <div className="postbox__wrapper pr-20">
                 {
                   blogItems.map(item => (
-                    <article key={item.id} className="postbox__item mb-50">
+                    <article key={item.id} className="postbox__item mb-100">
                       <div className="postbox__thumb w-img mb-30">
                         <div className={item.class}>
                           {item.video ?
@@ -71,62 +71,33 @@ const BlogArea = () => {
                                 <button className="tp-swiper-prev swiper-arrow">
                                   <i className="far fa-long-arrow-left"></i></button>
                               </div> </> : <Link href={`/blog/blogs/${item.id}`}>
-                              <a ><img src={item.bigImg} alt="" /></a>
+                              <a ><img src={item.img} alt="" /></a>
                             </Link>}
                         </div>
                         <div className="postbox__tag-wrapper">
-                          <span className="postbox__tag">Personal . Stories</span>
+                          <span className="postbox__tag">{item.category}</span>
                         </div>
                       </div>
                       <div className="postbox__content">
                         <div className="postbox__meta">
                           <span><i className="far fa-user"></i> {item.blogAuthor}</span>
                           <span><i className="far fa-calendar-check"></i> {item.date} </span>
-                          <span><i className="fal fa-comments"></i> 02 Comments</span>
                         </div>
                         <h3 className="postbox__title">
                           <Link href={`/blog/blogs/${item.id}`}>
                             <a>{item.title}</a>
                           </Link>
                         </h3>
-                        <div className="postbox__text">
+                        {/* <div className="postbox__text">
                           <p>This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience. </p>
                         </div>
                         <div className="postbox__read-more">
                           <Link href={`/blog/blogs/${item.id}`} className="tp-solid-btn">read more</Link>
-                        </div>
+                        </div> */}
                       </div>
                     </article>
                   ))
                 }
-
-
-                {/* <div className="basic-pagination mb-50">
-                  <nav>
-                    <ul>
-                      <li>
-                        <Link href="/blog">
-                          <a><i className="far fa-angle-left"></i></a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">1</Link>
-                      </li>
-                      <li>
-                        <span className="current">2</span>
-                      </li>
-                      <li>
-                        <Link href="/blog">3</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">
-                          <a><i className="far fa-angle-right"></i></a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </nav>
-                </div> */}
-
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const index = () => {
             <div className="col-xl-9">
               <div className="error-contant text-center">
                 <div className="error-image w-img">
-                  <img src="assets/img/about/404-img.png" alt="404 img" />
+                  <img src="/assets/img/about/404-img.png" alt="404 img" />
                 </div>
                 <p>Упс! Страница, которую вы ищете, не существует. Возможно, он был перемещен или удален.</p>
                 <h4 className="error-title mt-60"><Link href="/">На главную</Link></h4>

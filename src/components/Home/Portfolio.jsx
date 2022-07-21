@@ -22,11 +22,7 @@ const Portfolio = () => {
                     <div className="tpbs-project mb-50">
                       <div className="tpbs-project__thumb mb-30">
                         <div className="tpbs-project__thumb-image">
-                          <Link href={`/portfolio-details/${item.id}`}>
-                            <a>
-                              <img src={item.img} alt="project" />
-                            </a>
-                          </Link>
+                          <img src={item.img} alt="project" />
                         </div>
                         <div className="tpbs-project__thumb-shape">
                           <img src="assets/img/project/4/tpbs-shape.png" alt="" />
@@ -35,15 +31,8 @@ const Portfolio = () => {
                       <div className="tpbs-project__content">
                         <span className="tpbs-project__category mb-10">{item.category}</span>
                         <h4 className="tpbs-project__title">
-                          <Link href={`/portfolio-details/${item.id}`}>
-                            <a>{item.title}</a>
-                          </Link>
+                          {item.title}
                         </h4>
-                        <div className="tpbs-project-btn mt-20">
-                          <Link href={`/portfolio-details/${item.id}`}>
-                            <a className="tpbs-btn-2">Подробнее <i className="fa-solid fa-arrow-right"></i></a>
-                          </Link>
-                        </div>
                       </div>
                     </div>
                   </div>
