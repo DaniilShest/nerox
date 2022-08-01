@@ -11,9 +11,18 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
   const [searchOpen, setSearchOpen] = useState(false);
   const { setShowSidebar } = useGlobalContext();
 
+  const mystyle = {
+    backgroundColor: "transparent",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    zIndex: 99
+  };
+
   return (
     <>
-      <header>
+      <header style={mystyle}>
         <div className={`tp-header-area ${HeaderTwo && 'box-plr-85'} ${homeNine ? 'header-style-9' : ''}`}>
           <div className={`tp-header-area-inner ${HeaderTwo ? '' : 'inner-border'} 
           ${headerSticky && "header-sticky"} ${homeNine && 'header-transparent border-0'}`} id="header-sticky">
@@ -23,11 +32,18 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                   <div className="logo-dark">
                     <Link href="/">
                       <a>
-                        {
-                          dynamic && <img src={"/" + "assets/img/logo/logo.png"} alt="logo" />
+                        {headerSticky ?
+                          <>
+                            {
+                              dynamic && <img src={"/" + "assets/img/logo/logo.png"} alt="logo" />
+                            }
+                            {!dynamic && homeNine ? <img src="/assets/img/logo/logo-white.png" alt="logo" />
+                              : !dynamic && <img src="/assets/img/logo/logo.png" alt="logo" />}
+                          </>
+                          :
+                          <img src={"/" + "assets/img/logo/logo-white.png"} alt="logo" />
                         }
-                        {!dynamic && homeNine ? <img src="/assets/img/logo/logo-white.png" alt="logo" />
-                          : !dynamic && <img src="/assets/img/logo/logo.png" alt="logo" />}
+
                       </a>
                     </Link>
                   </div>
@@ -73,10 +89,18 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                           {/* dark mode button start  */}
                           <div className="mode-switch-wrapper my_switcher setting-option">
                             <input type="checkbox" className="checkbox" id="chk" />
-                            <label className="label" htmlFor="chk">
-                              <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                              <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
-                            </label>
+                            {headerSticky
+                              ?
+                              <label className="label" htmlFor="chk">
+                                <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                              </label>
+                              :
+                              <label className="label" htmlFor="chk">
+                                <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                              </label>}
+
                           </div>
                           {/* dark mode button end  */}
                         </li>
