@@ -81,25 +81,33 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                     <div className="tp-header-action">
                       <ul>
                         <li >
-                          <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
-                            <i className="fas fa-bars"></i>
-                          </button>
+                          {headerSticky ?
+                            <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                              <i className="fas fa-bars"></i>
+                            </button>
+                            :
+                            <button style={{ color: "white" }} onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                              <i className="fas fa-bars"></i>
+                            </button>
+                          }
+
                         </li>
                         <li>
                           {/* dark mode button start  */}
                           <div className="mode-switch-wrapper my_switcher setting-option">
                             <input type="checkbox" className="checkbox" id="chk" />
-                            {headerSticky
-                              ?
-                              <label className="label" htmlFor="chk">
-                                <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                                <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
-                              </label>
-                              :
-                              <label className="label" htmlFor="chk">
-                                <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                                <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
-                              </label>}
+                            {
+                              headerSticky ?
+                                <label className="label" htmlFor="chk">
+                                  <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                  <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                                </label>
+                                :
+                                <label className="label" htmlFor="chk">
+                                  <i style={{ color: "white" }} onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                  <i style={{ color: "white" }} onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                                </label>
+                            }
 
                           </div>
                           {/* dark mode button end  */}
@@ -118,17 +126,31 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                             {/* <!-- dark mode button start --> */}
                             <div className="mode-switch-wrapper my_switcher setting-option">
                               <input type="checkbox" className="checkbox" id="chk" />
-                              <label className="label" htmlFor="chk">
-                                <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
-                                <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
-                              </label>
+                              {
+                                headerSticky ?
+                                  <label className="label" htmlFor="chk">
+                                    <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                    <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                                  </label>
+                                  :
+                                  <label className="label" htmlFor="chk">
+                                    <i style={{ color: "white" }} onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
+                                    <i style={{ color: "white" }} onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
+                                  </label>
+                              }
                             </div>
                             {/* <!-- dark mode button end  --> */}
                           </li>
                           <li className="d-lg-none ml-20">
-                            <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
-                              <i className="fas fa-bars"></i>
-                            </button>
+                            {headerSticky ?
+                              <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                                <i className="fas fa-bars"></i>
+                              </button>
+                              :
+                              <button style={{ color: "white" }} onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                                <i className="fas fa-bars"></i>
+                              </button>
+                            }
                           </li>
                         </ul>
                       </div>
