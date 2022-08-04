@@ -8,7 +8,7 @@ const AboutArea = () => {
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-content-2 pb-50">
-                <h3 className="tpabout-xd-title mb-15"><b>NEROX</b> CREATIVE</h3>
+                <h3 className="tpabout-xd-title mb-15"><b>NER</b> CREATIVE</h3>
                 <span className="tpabout-xs-title mb-40">Веб-разработка для вашего бизнеса</span>
                 <p className="tpab-text">
                   Мы начали путь в 2009 году как креативная юзабилити-студия. Каждый новый год, каждый клиент становились вызовами и давали стимул к развитию. Сейчас мы Brander — опытная команда разработчиков бизнес-решений.
