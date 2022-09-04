@@ -9,8 +9,8 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="tpbs-section-wrapper text-center mb-30">
-                <span className="tpbs-sub-title mb-15">Портфолио</span>
-                <h3 className="tpbs-title">Последние проекты</h3>
+                <span className="tpbs-sub-title mb-15">Portfolio</span>
+                <h3 className="tpbs-title">Latest projects</h3>
               </div>
             </div>
           </div>

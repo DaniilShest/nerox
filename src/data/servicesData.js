@@ -2,150 +2,150 @@ const servicesData = [
   {
     id: 1,
     icon: "flaticon-web-programming",
-    title: 'Веб-сайты',
+    title: 'Websites',
     url: 'web-sites',
-    text: 'Создание и разработка сайтов с индивидуальным дизайном по доступным ценам.',
+    text: 'Creation and development of websites with individual design at affordable prices.',
     description:
       <>
-        <p className="services-text mb-40">Как профессиональные веб-разработчики и дизайнеры веб-сайтов, мы предоставляем лучшие услуги веб-разработки. От понимания ваших бизнес-целей при создании идеального решения для веб-разработки до оптимизации коэффициента конверсии и отслеживания посетителей, наша команда тесно сотрудничает с вами на каждом этапе проекта, чтобы убедиться, что вы достигаете своих бизнес-целей с помощью своего веб-сайта. Будучи известной компанией, занимающейся веб-разработкой и дизайном, мы представляем лучших веб-дизайнеров и разработчиков, которые разрабатывают впечатляющие веб-сайты, привлекающие потенциальных клиентов, которые соответствуют бизнес-требованиям наших клиентов.
+        <p className="services-text mb-40">As professional web developers and website designers, we provide the best web development services. From understanding your business goals while creating the perfect web development solution to conversion rate optimization and visitor tracking, our team works closely with you at every stage of the project to make sure you achieve your business goals with your website. As a well-known web development and design company, we represent the best web designers and developers who develop impressive websites that attract potential customers that meet the business requirements of our clients.
         </p>
       </>,
     steps: [
       {
-        title: "Стратегия",
-        text: "Составление комплексного предложения"
+        title: "Strategy",
+        text: "Composing a complex proposal"
       },
       {
-        title: "Дизайн",
-        text: "Разработка пользовательского интерфейса"
+        title: "Design",
+        text: "UI Development"
       },
       {
-        title: "Разработка",
-        text: "Front и Back-End разработка"
+        title: "Development",
+        text: "Front and Back-End Development"
       },
       {
-        title: "Запуск",
-        text: "Размещение сайта на сервере"
+        title: "Launch",
+        text: "Placing the site on the server"
       }
     ]
   },
   {
     id: 2,
     icon: "flaticon-web-programming",
-    title: 'Интернет-магазины',
+    title: 'Online Stores',
     url: 'online-shops',
-    text: 'Обладает всем функционалом для демонстрации и продажи товаров/услуг в Интернете.',
+    text: 'It has all the functionality to showcase and sell goods/services on the Internet.',
     description:
       <>
-        <p className="services-text mb-40">Каждый бизнес уникален. У каждого свои бизнес-модели, цели и целевые клиенты. Это означает, что точки фокусировки различаются. Поэтому процесс разработки необходимо адаптировать в соответствии с потребностями вашего бизнеса. Мы понимаем это и планируем процесс разработки в соответствии с вашим бизнесом. На начальных этапах взаимодействия мы уделяем время анализу вашего бизнеса и пониманию основных проблем клиентов, чтобы предоставить уникальный опыт электронной коммерции, который оценят ваши клиенты.
+        <p className="services-text mb-40">Every business is unique. Everyone has their own business models, goals and target customers. This means that the focus points are different. Therefore, the development process must be tailored to suit your business needs. We understand this and plan the development process according to your business. During the initial stages of engagement, we take the time to analyze your business and understand key customer concerns to deliver a unique e-commerce experience that your customers will appreciate.
         </p>
       </>,
     steps: [
       {
-        title: "Стратегия",
-        text: "Составление комплексного предложения"
+        title: "Strategy",
+        text: "Composing a complex proposal"
       },
       {
-        title: "Дизайн",
-        text: "Разработка пользовательского интерфейса"
+        title: "Design",
+        text: "UI Development"
       },
       {
-        title: "Разработка",
-        text: "Front и Back-End разработка"
+        title: "Development",
+        text: "Front and Back-End Development"
       },
       {
-        title: "Запуск",
-        text: "Размещение сайта на сервере"
+        title: "launch",
+        text: "Placing the site on the server"
       }
     ]
   },
   {
     id: 3,
     icon: "flaticon-coding",
-    title: 'Мобильная разработка',
-    url: 'mobile-development',
-    text: 'Полный цикл разработки мобильных приложений под все операционные системы.',
+    title: 'Mobile Development',
+    url: 'mobile development',
+    text: 'Full cycle of mobile app development for all operating systems.',
     description:
       <>
-        <p className="services-text mb-10">Поскольку мы входим в число ведущих компаний-разработчиков мобильных приложений, наша команда стремится создавать для наших клиентов возможности, позволяющие им общаться с людьми, а также добиваться значимых результатов для своей организации. От концептуализации до монетизации и каждого промежуточного процесса мы предоставим вам широкий спектр цифровых услуг, которые помогут вам расти.
+        <p className="services-text mb-10">As one of the leading mobile app development companies, our team is committed to creating experiences for our clients that enable them to connect with people and deliver meaningful results for their organization. From conceptualization to monetization and every process in between, we provide you with a wide range of digital services to help you grow.
         </p>
         <p className="services-text mb-10">
-          Мы обязуемся создавать простые и привлекательные мобильные приложения для таких платформ, как Android, iOS и других. Наш опыт заключается в нашей команде профессиональных и талантливых дизайнеров, разработчиков, бизнес-аналитиков и маркетологов, которые обслуживали клиентов из разных уголков мира, чтобы добавить к нашему опыту.
+          We are committed to creating simple and attractive mobile applications for platforms such as Android, iOS and others. Our experience lies in our team of professional and talented designers, developers, business analysts and marketers who have served clients from different parts of the world to add to our experience.
         </p>
         <ul className="mb-40">
           <li className="mb-10">
-            Разработка iOS-приложений
-            Если вы ищете разработку приложений для iPhone или хотите создать приложение, которое эффективно работает на всех устройствах, у нас есть сертифицированные разработчики, которые помогут вам от проектирования до развертывания и обслуживания. Наши первоклассные разработчики обеспечивают лучшую разработку приложений для iOS, следуя подходу, ориентированному на ценность, и процессу сборки за сборкой.
+            iOS Application Development
+            Whether you're looking for iPhone app development or want to create an app that works effectively on all devices, we have certified developers to help you from design to deployment and maintenance. Our top-notch developers ensure the best iOS app development by following a value-driven approach and a build-by-build process.
           </li>
-          <li className="mb-10">Разработка приложений для Android
-            Наши увлеченные своим делом разработчики предоставляют передовые услуги по разработке приложений для Android, используя лучшие практики UI/UX, новейшие технологии и фреймворки для создания динамичных мобильных приложений для платформы Android.
-          </li>
-          <li className="mb-10">
-            Кроссплатформенная разработка приложений
-            Наша команда входит в число ведущих компаний по разработке мобильных приложений. У нас есть опытная команда разработчиков кросс-платформенных приложений, которые обеспечивают беспрепятственный доступ к вашему мобильному приложению на различных платформах.
+          <li className="mb-10">Android Application Development
+            Our passionate developers provide cutting-edge Android app development services using UI/UX best practices, the latest technologies and frameworks to build dynamic mobile apps for the Android platform.
           </li>
           <li className="mb-10">
-            Универсальное место для всех услуг по разработке мобильных приложений
-            Наша способность понимать столь необходимые отраслевые предпосылки возглавила нашу позицию среди ведущих компаний-разработчиков мобильных приложений. Мы предлагаем комплексные услуги по разработке мобильных приложений, от дизайна UI/UX до разработки и развертывания, чтобы превратить ваши уникальные идеи в инновационные мобильные приложения, которые изменят будущее. При поддержке специальной команды опытных разработчиков мобильных приложений мы разрабатываем комплексные высококачественные мобильные приложения, соответствующие ожиданиям наших клиентов.
+            Cross-platform application development
+            Our team is one of the leading mobile app development companies. We have an experienced team of cross-platform app developers who provide seamless access to your mobile app across multiple platforms.
+          </li>
+          <li className="mb-10">
+            One stop place for all mobile app development services
+            Our sThe ability to understand much-needed industry prerequisites has topped our position among the leading mobile app development companies. We offer end-to-end mobile app development services, from UI/UX design to development and deployment, to turn your unique ideas into innovative mobile apps that will change the future. Backed by a dedicated team of experienced mobile app developers, we develop comprehensive, high-quality mobile apps that meet the expectations of our clients.
           </li>
         </ul>
       </>,
     steps: [
       {
-        title: "Стратегия",
-        text: "Составление комплексного предложения"
+        title: "Strategy",
+        text: "Composing a complex proposal"
       },
       {
-        title: "Дизайн",
-        text: "Разработка пользовательского интерфейса"
+        title: "Design",
+        text: "UI Development"
       },
       {
-        title: "Разработка",
-        text: "Front и Back-End разработка"
+        title: "Development",
+        text: "Front and Back-End Development"
       },
       {
-        title: "Запуск",
-        text: "Публикация приложения"
+        title: "launch",
+        text: "App Publishing"
       }
     ]
   },
   {
     id: 4,
     icon: "flaticon-seo",
-    title: 'SEO оптимизация',
-    url: 'seo-optimization',
-    text: 'SEO продвижение сайта. Собственные авторские стратегии SEO продвижения.',
+    title: 'SEO Optimization',
+    url: 'seo optimization',
+    text: 'SEO website promotion. Own author SEO promotion strategies.',
     description:
       <>
         <p className="services-text mb-10">
-          SEO (Search Engine Optimization) – это технология раскрутки сайта в поисковой выдаче с целью получения трафика. В основе работы лежит знание алгоритмов ранжирования ресурсов в выдаче и улучшение критериев сайта с целью выведения его в топ результатов поиска по требуемым ключевым фразам.
+          SEO (Search Engine Optimization) is a technology for promoting a website in search results in order to get traffic. The work is based on the knowledge of algorithms for ranking resources in the search results and improving the criteria of the site in order to bring it to the top of the search results for the required key phrases.
         </p>
         <p className="services-text mb-10">
-          В результате проведения качественного SEO сайт поднимается в выдаче поисковика, а значит, по ссылке на продвигаемую страницу идет трафик посетителей, который будет тем больше, чем выше позиция такой ссылки.
+          As a result of high-quality SEO, the site rises in the search engine results, which means that the link to the promoted page receives traffic from visitors, which will be the greater, the higher the position of such a link.
         </p>
         <p className="services-text mb-10">
-          Принцип работы выглядит очень просто: пользователь вводит интересующий его запрос, а поисковая система строит список ссылок на ресурсы в определенном порядке. После этого потенциальный клиент знакомится с кратким описанием ресурса и переходит на него, если это его заинтересовало. Чем выше в результатах находится такая ссылка, тем вероятнее переход, поскольку пользователь обычно не заходит дальше первой страницы выдачи.
+          The principle of operation looks very simple: the user enters a query of interest to him, and the search engine builds a list of links to resources in a certain order. After that, the potential client gets acquainted with a brief description of the resource and goes to it if it interests him. The higher in the results such a link is, the more likely the transition is, since the user usually does not go beyond the first page of the issue.
         </p>
         <p className="services-text mb-40">
-          Принцип построения поисковой выдачи по запросу использует сложную формулу сортировки, учитывающую десятки параметров. При этом точный алгоритм такого ранжирования не разглашается владельцами поисковых систем, которые озвучивают только общие принципы построения качественного и полезного для людей ресурса, помогающие подняться в топ. На практике без использования технологий SEO-продвижения практически невозможно вывести сайт на первую страницу выдачи в высококонкурентных коммерческих тематиках, даже если его контент и техническая реализация будут идеальны.
+          The principle of constructing search results on demand uses a complex sorting formula that takes into account dozens of parameters. At the same time, the exact algorithm for such a ranking is not disclosed by the owners of search engines, who voice only the general principles of building a high-quality and useful resource for people, helping to climb to the top. In practice, without the use of SEO promotion technologies, it is almost impossible to bring a site to the first page of search results in highly competitive commercial topics, even if its content and technical implementation are perfect.
         </p>
       </>,
     steps: [
       {
-        title: "Анализ",
-        text: "Анализ тематики и конкурентов"
+        title: "Analysis",
+        text: "Analysis of topics and competitors"
       },
       {
-        title: "Ядро",
-        text: "Формирование семантического ядра"
+        title: "Core",
+        text: "Semantic core formation"
       },
       {
-        title: "Структура",
-        text: "Формирование структуры сайта"
+        title: "Structure",
+        text: "Shaping the site structure"
       },
       {
-        title: "Контент",
-        text: "Оптимизация контента"
+        title: "Content",
+        text: "Content optimization"
       }
     ]
   }

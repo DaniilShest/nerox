@@ -30,5 +30,18 @@
   "devDependencies": {
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6"
-  }
+  },
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniilShest/nerox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniilShest/nerox/issues"
+  },
+  "homepage": "https://github.com/DaniilShest/nerox#readme",
+  "description": ""
 }

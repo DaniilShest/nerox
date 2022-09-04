@@ -41,7 +41,7 @@ const BrandArea = ({ hideTopBar = false, homeFiveBrand, brand, about, padd, dyna
           <div className="row">
             {!hideTopBar && <div className="col-xl-12">
               <div className="tp-section-title text-center mb-50">
-                <span className="tp-sub-title">#Нам доверяют</span>
+                <span className="tp-sub-title">#We are trusted</span>
               </div>
             </div>}
           </div>

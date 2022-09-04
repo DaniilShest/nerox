@@ -14,7 +14,6 @@ const ServiceDetails = () => {
     const router = useRouter();
     const [serviceItem, setServiceItem] = useState({});
     const url = router.query.url;
-    console.log(serviceItem === true)
 
     useEffect(() => {
         if (!url) {
@@ -51,7 +50,7 @@ const ServiceDetails = () => {
                             <div className="col-xl-12">
                                 <h4 className="services-d-title mb-25">{serviceItem.title}</h4>
                                 {serviceItem.description}
-                                <h5 className="services-sm-title mb-25">4 простых шага</h5>
+                                <h5 className="services-sm-title mb-25">4 easy steps</h5>
                                 <div className="row mt-70">
                                     {
                                         serviceItem.steps ?
@@ -84,9 +83,9 @@ const ServiceDetails = () => {
                     </div>
                 </div>
 
-                {/*BrandArea  */}
+                {/*BrandArea */}
                 <BrandArea padd="services-padd" dynamic={true} />
-                {/*Footer  */}
+                {/*Footer */}
                 <Footer />
 
             </>

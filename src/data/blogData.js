@@ -7,40 +7,40 @@ const blogData = [
     img4: 'assets/img/blog/blog-1.jpg',
     bigImg: 'assets/img/blog/blog-big-1.jpg',
     gridImg: 'assets/img/blog/grid/blog-1.jpg',
-    tags: ["React", "Веб-разработка", "SSR"],
-    title: 'Что нужно знать React-разработчику в 2022 году',
-    date: '22 июня 2022г.',
+    tags: ["React", "Web development", "SSR"],
+    title: 'What React Developers Need to Know in 2022',
+    date: 'June 22, 2022',
     desc: 'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
-    class: 'postbox__thumb w-img mb-30',
-    blogAuthor: 'Горбачев Иван',
-    category: 'Веб-разработка',
+    class: 'postbox_thumb w-img mb-30',
+    blogAuthor: 'Gorbachev Ivan',
+    category: 'Web Development',
     info:
       <>
-        <h4 className="postbox__title-sm mb-20">Знание JavaScript</h4>
+        <h4 className="postbox__title-sm mb-20">Knowledge of JavaScript</h4>
         <p>
-          React построен на основе JavaScript. В первую очередь людям, желающим изучать React, нужно понять, насколько хорошо они знают сам JavaScript.
+          React is built on top of JavaScript. First of all, people who want to learn React need to understand how well they know JavaScript itself.
         </p>
         <p className="mb-40">
-          Очень часто разработчики задают вопросы, которые показывают, что они не знают основ JavaScript. В то время как вопросы по экосистеме React возникают гораздо реже. Поэтому в первую очередь мы рекомендуем углубить знания JavaScript, а потом возвращаться к React.
+          Very often, developers ask questions that show that they do not know the basics of JavaScript. Whereas questions about the React ecosystem are much less common. Therefore, first of all, we recommend deepening your knowledge of JavaScript, and then returning to React.
         </p>
 
-        <h4 className="postbox__title-sm mb-20">Использование State Manager</h4>
-        <p>В React.js нет встроенного State Manager. Как стандарт долгое время использовалась библиотека Redux, но она не очень хорошо выполняет эту роль — при работе с ней приходится писать много бойлерплейт-кода, отсутствуют средства управления асинхронным поведением и побочными эффектами.</p>
-        <p>Так начали появляться другие State Managers. Разработчики Redux учли свои недочеты и представили библиотеку Redux Toolkit, которую хорошо приняли frontend разработчики.</p>
-        <p>Redux Toolkit — библиотека поверх Redux. Она дает возможность добиться того же, что и Redux, но с Redux Toolkit вам придется писать намного меньше кода, чем c Redux. Кроме того, Redux Toolkit использует внутри себя Immer.js, поэтому не нужно думать над иммутабельностью данных, т.е использовать деструктуризацию, создавая каждый раз новые объект состояния в редьюсерах.</p>
-        <p>Еще одна довольно перспективная библиотека — MobX. Бизнес логика MobX отличается от Redux. Не стоит забывать и про Effector, которую создали выходцы из СНГ.</p>
-        <p className="mb-40">На сегодняшний день эти три State Managers являются самыми популярными. Все три  библиотеки очень хорошо справляются со своей задачей, но мы обычно используем либо Redux Toolkit, либо Effector.</p>
+        <h4 className="postbox__title-sm mb-20">Using the State Manager</h4>
+        <p>React.js does not have a built-in State Manager. The Redux library has been used as a standard for a long time, but it does not fulfill this role very well - when working with it, you have to write a lot of boilerplate code, there are no controls for asynchronous behavior and side effects.</p>
+        <p>This is how other State Managers began to appear. Redux developers took their shortcomings into account and introduced the Redux Toolkit library, which was well received by front-end developers.</p>
+        <p>Redux Toolkit is a library on top of Redux. It gives you the ability to achieve the same as Redux, but with the Redux Toolkit you have to write much less code than with Redux. In addition, the Redux Toolkit uses Immer.js internally, so there is no need to think about data immutability, i.e. use destructuring, creating a new state object in reducers each time.</p>
+        <p>Another fairly promising library is MobX. The business logic of MobX is different from Redux. Do not forget about Effector, which was created by people from the CIS.</p>
+        <p className="mb-40">These three State Managers are by far the most popular. All three libraries do their job very well, but we usually use either the Redux Toolkit or Effector.</p>
 
         <h4 className="postbox__title-sm mb-20">Server-Side Rendering</h4>
-        <p>Сейчас есть несколько популярных SSR решений. На наших первых проектах, где мы применяли SSR, у нас было полностью кастомное решение. Со временем мы начали изучать и использовать готовые решения. У каждого из них есть свои плюсы и минусы. Например, на одном из текущих проектов мы используем Razzle, а на другом — Next.js.</p>
-        <p className="mb-40">Next.js — это популярный легковесный фреймворк для статических и серверных приложений, использующих React. Он включает в себя готовые решения для стилизации и маршрутизации и предполагает, что вы используете Node.js в качестве серверной среды. То, что у Next не совсем нравится — в некоторых случаях он диктует архитектуру и то, как строить приложения. Но это уже вопрос вкуса и личных пристрастий.</p>
+        <p>There are several popular SSR solutions available today. On our first projects where we used SSR, we had a completely custom solution. Over time, we began to study and use ready-made solutions. Each of them has its pros and cons. For example, we use Razzle on one of our current projects, and Next.js on another.</p>
+        <p className="mb-40">Next.js is a popular lightweight framework for static and server applications using React. It includes out-of-the-box styling and routing solutions and assumes you are using Node.js as your backend. What Next doesn’t quite like is that in some cases it dictates the architecture and how to build applications. But this is already a matter of taste and personal preferences.</p>
 
         <h4 className="postbox__title-sm mb-20">React Hooks</h4>
-        <p>React Hooks пришли к нам в гости с 16.8 версии и останутся с нами надолго. Если вы про них сейчас слышите впервые, то, сначала вам стоит ознакомиться с ними в официальной документации React.</p>
-        <p>Хуки — это просто еще один способ описывать логику ваших компонентов. Он позволяет добавить к функциональным компонентам некоторые возможности, ранее присущие только классовым компонентам.</p>
-        <p>Большинство людей на собеседовании плывут на вопросах про хуки, хотя вся информация есть в документации. Всем кто, хочет развиваться, непременно нужно хотя бы посмотреть как они работают, а с опытом работы можно понять технологию глубже.</p>
-        <p>На использование хуков накладываются некоторые ограничения, которые их отличают от обычных функций. В первую очередь их нельзя использовать в классовых компонентах. Хуки нельзя вызывать внутри циклов, условий. Это ограничение накладывает сам React, чтобы получить возможность отслеживать, какие хуки были вызваны.</p>
-        <p className="mb-40">Когда хуки только появились, мы в Holyweb экспериментировали на них, писали новые компоненты и смотрели, что из этого выйдет. Когда все хорошо получалось, мы использовали их дальше, писали на них новые фичи. Для тех, кто до сих пор не использовал React Hooks, я бы рекомендовал это попробовать — с ними очень легко описывать нужную логику, они делают код чистым и более понятным.</p>
+        <p>React Hooks have been visiting us since version 16.8 and will stay with us for a long time. If you are hearing about them for the first time, then you should first familiarize yourself with them in the official React documentation.</p>
+        <p>Hooks are just another way to describe the logic of your components. It allows you to add to the functional components some features that were previously unique to class components.</p>
+        <p>Most people in the interview float on questions about hooks, although all the information is in the documentation. Anyone who wants to develop should definitely at least see how they work, and with work experience you can understand the technology more deeply.</p>
+        <p>The use of hooks has some limitations that distinguish them from regular functions. First of all, they cannot be used in class components. Hooks cannot be called inside loops, conditions. React itself enforces this restriction to keep track of which hooks have been called.</p>
+        <p className="mb-40">When hooks first appeared, we at Holyweb experimented with them, wrote new components, and saw what would come of it. When everything worked out well, we used them further, wrote new features on them. For those who haven't used React Hooks yet, I would recommend this to tryIt is very easy to describe the necessary logic with them, they make the code cleaner and more understandable.</p>
       </>
   },
   {
@@ -51,52 +51,52 @@ const blogData = [
     img4: 'assets/img/blog/blog-1.jpg',
     bigImg: 'assets/img/blog/blog-big-1.jpg',
     gridImg: 'assets/img/blog/grid/blog-1.jpg',
-    tags: ["Мобильная разработка"],
-    title: 'Как стать разработчиком мобильных приложений',
-    date: '15 июня 2022г.',
+    tags: ["Mobile development"],
+    title: 'How to Become a Mobile Developer',
+    date: 'June 15, 2022',
     desc: 'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
-    class: 'postbox__thumb w-img mb-30',
-    blogAuthor: 'Коротков Никита',
-    category: 'Мобильная разработка',
+    class: 'postbox_thumb w-img mb-30',
+    blogAuthor: 'Nikita Korotkov',
+    category: 'Mobile Development',
     info:
       <>
-        <h4 className="postbox__title-sm mb-20">Востребована ли профессия мобильного разработчика? Легко ли найти работу в этой сфере?</h4>
+        <h4 className="postbox__title-sm mb-20">Is mobile developer in demand? Is it easy to find a job in this field?</h4>
         <p>
-          В 2021 году мобильная разработка остаётся одним из самых востребованных направлений. Ситуация с пандемией только дала толчок для её развития. Многие компании ушли в онлайн, одной лишь веб-страницы недостаточно для того, чтобы выживать в конкурентной среде, которая явно задаёт тенденцию на мобильные решения.
+          In 2021, mobile development remains one of the most popular areas. The situation with the pandemic only gave impetus to its development. Many companies have gone online, a web page alone is not enough to survive in a competitive environment that clearly sets the trend for mobile solutions.
         </p>
         <p>
-          Даже в докоронакризисные времена на рынке была нехватка в мобильных разработчиках. Сейчас ситуация стала намного острее.
+          Even in pre-corona times, there was a shortage of mobile developers in the market. Now the situation has become much worse.
         </p>
         <p className="mb-40">
-          Из всего вышесказанного выходит, что найти работу для начинающего специалиста, имеющего пару-тройку проектов портфолио, не составит труда. К тому же формат удалёнки становится неотъемлемой частью в IT, а программ стажировок от крупных компаний становится всё больше.
+          From all of the above, it turns out that finding a job for a novice specialist with a couple of portfolio projects is not difficult. In addition, the remote format is becoming an integral part of IT, and there are more and more internship programs from large companies.
         </p>
 
-        <h4 className="postbox__title-sm mb-20">Какие направления существуют в мобильной разработке? Есть ли смысл осваивать кроссплатформенные решения?</h4>
-        <p>Существуют три основных направления в мобильной разработке: Android, iOS и кроссплатформенные решения (Flutter, React Native, PhoneGap).</p>
-        <p>Для Android-разработки используются языки Kotlin и Java, для iOS — Swift и Objective-C. Ещё несколько лет назад основными языками для Android и iOS были Java и Objective-C. Однако с появлением новых языков многие проекты, в том числе крупных IT-компаний, стали использовать современные решения. Сейчас начинающему специалисту достаточно владеть знаниями об основной платформе, на которой он разрабатывает (iOS или Android), а также одним из новых языков программирования (Swift или Kotlin).</p>
+        <h4 className="postbox__title-sm mb-20">What are the trends in mobile development? Does it make sense to master cross-platform solutions?</h4>
+        <p>There are three main directions in mobile development: Android, iOS and cross-platform solutions (Flutter, React Native, PhoneGap).</p>
+        <p>Android development uses Kotlin and Java, iOS uses Swift and Objective-C. A few years ago, the main languages ​​for Android and iOS were Java and Objective-C. However, with the advent of new languages, many projects, including large IT companies, began to use modern solutions. Now it is enough for a novice specialist to have knowledge of the main platform on which he develops (iOS or Android), as well as one of the new programming languages ​​(Swift or Kotlin).</p>
 
-        <h4 className="postbox__title-sm mb-20">Какие основные роли и задачи мобильного разработчика?</h4>
+        <h4 className="postbox__title-sm mb-20">What are the main roles and tasks of a mobile developer?</h4>
         <p>
-          СРазработчик в целом — это не только тот, кто набирает код на клавиатуре. Это специалист, который понимает конкретную бизнесовую проблему, которую ему необходимо решить с помощью этого кода. Мобильный разработчик — не исключение. Единственное отличие — это понимание особенностей мобильных технологий в целом (таких как push-уведомления, ограничения скорости интернета, зарядки и памяти).
+          The developer as a whole is not only the one who types the code on the keyboard. This is a specialist who understands the specific business problem that he needs to solve with this code. The mobile developer is no exception. The only difference is an understanding of the peculiarities of mobile technologies in general (such as push notifications, Internet speed limits, charging and memory).
         </p>
         <p>
-          Очевидно, что мобильные приложения — это та же фронтенд-часть приложения. Соответственно, отсюда вытекают стандартные задачи и проблемы:  поддержка вёрстки для большинства девайсов, необходимость учитывать версии операционных систем и т.д.
+          Obviously, mobile applications are the same front-end part of the application. Accordingly, standard tasks and problems follow from this: layout support for most devices, the need to take into account versions of operating systems, etc.
         </p>
-        <p className="mb-40">Одна из основных проблем, которую необходимо учитывать в разработке тонкого мобильного клиента (основная часть и логика которого реализуется на бэкендe), — это поддержка обратной совместимости между различными версиями приложений. Одна из основных задач мобильного разработчика — выполнение поставленных требований с оглядкой на перечисленные выше ограничения и особенности.</p>
+        <p className="mb-40">One ​​of the main issues that must be taken into account in the development of a thin mobile client (the main part and logic of which is implemented on the backend) is the support of backward compatibility between different versions of applications. One of the main tasks of a mobile developer is to fulfill the set requirements with an eye to the limitations and features listed above.</p>
 
-        <h4 className="postbox__title-sm mb-20">Как стать разработчиком мобильных приложений?</h4>
-        <p>Если мы говорим про случай, когда у человека нет знаний и опыта в программировании, то стоит для начала изучить:</p>
+        <h4 className="postbox__title-sm mb-20">How to become a mobile app developer?</h4>
+        <p>If we are talking about the case when a person has no knowledge and experience in programming, then it is worth studying first:</p>
         <ul className="mb-20">
-          <li>один из языков программирования (Kotlin или Swift),</li>
-          <li>саму платформу (Android или iOS),</li>
-          <li>объектно-ориентированное программирование,</li>
-          <li>алгоритмы и структуры данных (без фанатизма, только основные принципы).</li>
+          <li>one of the programming languages ​​(Kotlin or Swift),</li>
+          <li>platform itself (Android or iOS),</li>
+          <li>object-oriented programming,</li>
+          <li>algorithms and data structures (no bigotry, just the basics).</li>
         </ul>
-        <p>Также нужно обязательно научиться гуглить. Кому-то этот совет может показаться оскорбительным, но это не так. Программисты всех уровней и мастей гуглят,  без исключений. Умение правильно задать вопрос — навык, который потребуется и в дальнейшей работе с коллегами, если этот вопрос нужно будет адресовать им.</p>
-        <p className="mb-40">Стоит оговориться, что для начала разработки под iOS необходимы устройства от Apple. Как минимум нужно приобрести бюджетный Mac mini или MacBook на вторичном рынке. Для изучения одного из языков программирования и изучения самой платформы подойдут основные туториалы на сайте Apple или Android. В идеале — найти ментора, который поможет на первоначальном этапе и выстроит план обучения. Курсы тут тоже будут кстати, но не стоит надеяться, что после простого их прослушивания всё станет очевидным и понятным.</p>
+        <p>You also need to learn how to google. Some may find this advice offensive, but it is not. Programmers of all levels and stripes google, without exception. The ability to ask the right question is a skill that will be required in further work with colleagues if this question needs to be addressed to them.</p>
+        <p className="mb-40">It's worth mentioning that Apple devices are required to start developing for iOS. At a minimum, you need to purchase a budget Mac mini or MacBook in the aftermarket. To learn one of the programming languages ​​and study the platform itself, the main tutorials on the Apple or Android website are suitable. Ideally, find a mentor who will help at the initial stage and build a training plan. Courses here will also come in handy, but you should not hope that after simply listening to them everything will become obvious and understandable.</p>
 
-        <h4 className="postbox__title-sm mb-20">Останется ли мобильная разработка востребованной в ближайшие годы?</h4>
-        <p className="mb-40">Конечно, мобильная разработка останется востребованной. Несмотря на очевидную стагнацию в выпуске новых фич для смартфонов, ими всё равно продолжает пользоваться огромное число людей по всему миру. И большинство задач тоже будет решаться с помощью устройства, которое находится у вас в кармане. Как минимум в ближайшие 10-15 лет.</p>
+        <h4 className="postbox__title-sm mb-20">Will mobile development remain in demand in the coming years?</h4>
+        <p className="mb-40">Of course, mobile development will remain in demand. Despite the obvious stagnation in the release of new features for smartphones, they still continue to be used by a huge number of people around the world. And most tasks will also be solved using the device that is in your pocket. At least in the next 10-15 years.</p>
       </>
   },
   {
@@ -107,38 +107,38 @@ const blogData = [
     img4: 'assets/img/blog/blog-1.jpg',
     bigImg: 'assets/img/blog/blog-big-1.jpg',
     gridImg: 'assets/img/blog/grid/blog-1.jpg',
-    tags: ["SEO", "Оптимизация", "Раскрутка сайта"],
-    title: 'Как раскрутить сайт — отвечают эксперты',
-    date: '20 марта 2022г.',
+    tags: ["SEO", "Optimization", "Website promotion"],
+    title: 'How to promote a site - experts answer',
+    date: 'March 20, 2022',
     desc: 'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
-    class: 'postbox__thumb w-img mb-30',
-    blogAuthor: 'Крюков Тимур',
-    category: 'SEO оптимизация',
+    class: 'postbox_thumb w-img mb-30',
+    blogAuthor: 'Kryukov Timur',
+    category: 'SEO optimization',
     info:
       <>
-        <h4 className="postbox__title-sm mb-20">Что нужно учесть при создании сайта, чтобы его посещала целевая аудитория?</h4>
+        <h4 className="postbox__title-sm mb-20">What should be taken into account when creating a site so that it is visited by the target audience?</h4>
 
         <p>
-          К сожалению, универсального ответа нет, ведь продукты очень разные. Метод продажи кроссовок (как и любых других FMCG–товаров) очень сильно отличается от продаж сложных продуктов и сервисов. Тем не менее, могу дать следующие рекомендации:
+          Unfortunately, there is no universal answer, because the products are very different. The method of selling sneakers (as well as any other FMCG product) is very different from selling complex products and services. However, I can make the following recommendations:
         </p>
 
         <ul className="mb-20">
-          <li>Мобильная эра уже наступила. Львиная доля трафика приходится на мобильные платформы. Это значит, сайт должен идеально смотреться на всех мобильных устройствах.</li>
-          <li>Время контакта с пользователем заметно сократилось. Ключевые месседжи нужно доносить максимально быстро и ёмко.</li>
-          <li>Посмотрите на популярность Facebook и Instagram. Почему мы их так любим? Там много картинок. Используйте яркие визуальные креативы — это включает рептильный мозг человека и наилучшим образом сказывается на итоговой конверсии.</li>
-          <li>Постарайтесь минимизировать точки выхода пользователя с целевой страницы. Чем меньше возможностей у пользователя заблудиться на вашем сайте — тем выше будет ваша конверсия.</li>
+          <li>The mobile era has arrived. The lion's share of traffic comes from mobile platforms. This means that the site should look perfect on all mobile devices.</li>
+          <li>The time of contact with the user has been noticeably reduced. Key messages need to be conveyed as quickly and concisely as possible.</li>
+          <li>Look at the popularity of Facebook and Instagram. Why do we love them so much? There are many pictures there. Use bright visual creatives - this includes the human reptilian brain and has the best effect on the final conversion.</li>
+          <li>Try to minimize user exit points from the landing page. The fewer opportunities a user has to get lost on your site, the higher your conversion rate will be.</li>
         </ul>
 
-        <h4 className="postbox__title-sm mb-20">Как оптимизировать сайт под поисковики?</h4>
+        <h4 className="postbox__title-sm mb-20">How to optimize your site for search engines?</h4>
 
         <p>
-          Поисковики научились определять, что нам реально нравится, а что нет, с очень высокой точностью. Сделайте сайт интересным, цепляйте внимание пользователя, сопровождайте аккаунты в соцсетях, приземляйте оттуда трафик через предложения и акции. И, пожалуй, самое важное — мобильные устройства. Уделите этому максимум внимания. Следующий ключевой пункт — поведенческие факторы. А прописывание заголовков, разметка и прочие вещи канули в лету, и слава богу!
+          Search engines have learned to determine what we really like and what we don't with very high accuracy. Make the site interesting, catch the user's attention, accompany accounts in social networks, land traffic from there through offers and promotions. And, perhaps most importantly, mobile devices. Give it maximum attention. The next key point is behavioral factors. And writing headings, markup and other things have sunk into oblivion, and thank God!
         </p>
 
-        <h4 className="postbox__title-sm mb-20">Что ещё, кроме SEO, поможет раскрутить сайт?</h4>
+        <h4 className="postbox__title-sm mb-20">What else, besides SEO, will help promote the site?</h4>
 
         <p className="mb-40">
-          Могу выделить три пункта. Во-первых, создавайте собственную аудиторию, работайте с ней, возвращайте её через спецпредложения. Во-вторых, ведите свой блог. Это не только возможность рассказать что-то интересное потребителю и доказать свою экспертизу, но это также структурирует ваш бизнес — ведь нет лучшего способа что-то действительно понять, чем написать это на бумаге. В-третьих, работайте с агентами влияния. Это отличный канал для привлечения целевой аудитории. А именно ЦА даст вам хорошие поведенческие факторы.
+          I can highlight three points. First, create your own audience, work with it, bring it back through special offers. Second, keep your blog. This is not only an opportunity to tell something interesting to the consumer and prove your expertise, but it also structures your business - there is no better way to really understand something than to write it on paper. Third, work with agents of influence. This is a great channel to reach your target audience. Namely, the target audience will give you good behavioral factors.
         </p>
       </>
   }

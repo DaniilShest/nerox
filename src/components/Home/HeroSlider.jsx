@@ -8,20 +8,20 @@ const HeroSlider = () => {
     {
       id: 1,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <><span>Рост</span> бизнеса</>
+      title: 'We design the future',
+      subtitle: <>Business <span>growth</span></>
     },
     {
       id: 2,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <><span>Здоровье</span> бизнеса</>
+      title: 'We design the future',
+      subtitle: <>Business <span>health</span></>
     },
     {
       id: 3,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'МЫ ПРОЕКТИРУЕМ БУДУЩЕЕ',
-      subtitle: <><span>Сила</span> бизнеса</>
+      title: 'We design the future',
+      subtitle: <>Business <span>strength</span></>
     },
   ]
   return (
@@ -50,7 +50,7 @@ const HeroSlider = () => {
                             <h3 className="tpbs-slider__item-title">{item.subtitle}</h3>
                             <div className="tpbs-btn mt-40">
                               <Link href="/contact">
-                                <a className="tp-solid-btn">Бесплатная консультация</a>
+                                <a className="tp-solid-btn">Free consultation</a>
                               </Link>
                             </div>
                           </div>

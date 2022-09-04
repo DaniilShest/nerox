@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 const index = () => {
   return (
     <>
-      <SEO pageTitle="Главная" />
+      <SEO pageTitle="Home" />
       <HomeMain />
     </>
   );

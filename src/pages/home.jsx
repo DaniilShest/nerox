@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 const HomeFour = () => {
   return (
     <>
-      <SEO pageTitle="Главная" />
+      <SEO pageTitle="Home" />
       <Home />
     </>
   );

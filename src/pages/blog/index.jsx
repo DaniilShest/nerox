@@ -5,7 +5,7 @@ import BlogMain from '../../components/Blog';
 const blog = () => {
   return (
     <>
-      <SEO pageTitle="Блог" />
+      <SEO pageTitle="Blog" />
       <BlogMain />
     </>
   );

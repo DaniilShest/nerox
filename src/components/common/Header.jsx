@@ -58,19 +58,19 @@ const Header = ({ HeaderTwo, headerEight = false, homeNine, dynamic = false }) =
                     <nav id="mobile-menu">
                       <ul>
                         <li>
-                          <Link href="/">Главная</Link>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
-                          <Link href="/about">О нас</Link>
+                          <Link href="/about">About</Link>
                         </li>
                         <li>
-                          <Link href="/services">Услуги</Link>
+                          <Link href="/services">Services</Link>
                         </li>
                         <li>
-                          <Link href="/blog">Блог</Link>
+                          <Link href="/blog">Blog</Link>
                         </li>
                         <li>
-                          <Link href="/careers">Вакансии</Link>
+                          <Link href="/careers">Jobs</Link>
                         </li>
                       </ul>
                     </nav>

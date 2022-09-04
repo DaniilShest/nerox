@@ -25,10 +25,10 @@ const VideoArea = () => {
                 <div className="tpbsvideo-box">
                   <div className="tpbsvideo-content">
                     <div className="tpbs-section-wrapper mb-40">
-                      <span className="tpbs-sub-title mb-15">Наша глобольная цель</span>
-                      <h3 className="tpbs-title">Создавать быстрые и масштабируемые цифровые продукты, которые нравятся людям.</h3>
+                      <span className="tpbs-sub-title mb-15">Our global goal</span>
+                      <h3 className="tpbs-title">Create fast and scalable digital products that people love.</h3>
                     </div>
-                    <p>Наша цель — просто помочь вам в достижении ваших целей, помогая вам преодолевать трудности и трудности в вашем предпринимательском путешествии в качестве технологического партнера.</p>
+                    <p>Our goal is simply to help you achieve your goals by helping you overcome challenges and challenges in your entrepreneurial journey as a technology partner.</p>
                   </div>
                 </div>
               </div>

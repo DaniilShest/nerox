@@ -8,129 +8,130 @@ const Privacy = () => {
     return (
         <>
             <Header />
+            <Breadcrumb title="Policy" subtitle="Privacy Policy" />
             <div className="services-details-area pt-140 pb-105">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
-                            <h4 className="services-d-title mb-25">Политика конфиденциальности</h4>
-                            <h5 className="services-sm-title mb-25">СОГЛАСИЕ</h5>
-                            <p>Если вы не согласны с условиями настоящей Политики конфиденциальности, не посещайте и не используйте веб-сайты EPAM. Если вы хотите прекратить получать маркетинговые материалы EPAM, нажмите кнопку «Отменить подписку» в маркетинговом электронном письме, которое вы получили от нас.
+                            <h4 className="services-d-title mb-25">Privacy Policy</h4>
+                            <h5 className="services-sm-title mb-25">CONSENT</h5>
+                            <p>If you do not agree to the terms of this Privacy Policy, please do not access or use the EPAM websites. If you would like to stop receiving EPAM marketing materials, please click the "Unsubscribe" button in the marketing email you received from us.
                             </p>
-                            <h5 className="services-sm-title mb-25">СБОР ИНФОРМАЦИИ</h5>
+                            <h5 className="services-sm-title mb-25">COLLECTION OF INFORMATION</h5>
                             <p>
-                                EPAM собирает информацию для предоставления более качественных услуг своим пользователям и лучшего понимания посетителей ее веб-сайтов и того, какой контент представляет для них интерес. EPAM собирает информацию следующими способами:
+                                EPAM collects information to provide a better service to its users and to better understand visitors to its websites and what content is of interest to them. EPAM collects information in the following ways:
                                 <br />
-                                - информация, которую вы утвердительно решили предоставить нам (например, ваше имя, адрес электронной почты, название компании, должность, страна) для доступа к различным загрузкам, просмотра определенного контента, подписки на информационные бюллетени EPAM, регистрации на мероприятия и ваши предпочтения в получении маркетинговых материалов. от EPAM и ее сторонних партнеров, а также ваши предпочтения в общении и т. д. Информация, которую мы получили о вас из общедоступных источников, таких как социальные сети, маркетинговые платформы или мероприятия, которые вы посетили. Вы будете получать маркетинговые сообщения от EPAM, если вы запрашивали информацию у EPAM или если вы или ваш работодатель приобрели услуги у EPAM;
+                                - information that you affirmatively choose to provide to us (for example, your name, email address, company name, job title, country) to access various downloads, view certain content, subscribe to EPAM newsletters, register for events, and your preferences in receiving marketing materials. from EPAM and its third party partners, as well as your communication preferences, etc. Information we have collected about you from publicly available sources such as social media, marketing platforms or events you have attended. You will receive marketing communications from EPAM if you have requested information from EPAM or if you or your employer have purchased services from EPAM;
                                 <br />
-                                - информация, которую EPAM получает при использовании вами веб-сайтов EPAM, например, IP-адрес, тип браузера, интернет-провайдер, страницы перехода/выхода, тип платформы, отметка даты/времени, количество кликов, доменное имя и страна/штат всех посетителей веб-сайтов EPAM;
+                                - information that EPAM collects when you use EPAM websites, such as IP address, browser type, ISP, referring/exit pages, platform type, date/time stamp, click count, domain name and country/state of all visitors to EPAM websites;
                                 <br />
-                                - информацию о местоположении, когда вы используете веб-сайты EPAM, поскольку EPAM может собирать и обрабатывать информацию о вашем местоположении. EPAM использует различные технологии и инструменты для определения местоположения;
+                                - location information when you use the EPAM websites, as EPAM may collect and process information about your location. EPAM uses various technologies and tools to determine location;
                                 <br />
-                                - информация, которая считается агрегированными данными, такими как статистические или демографические данные, которые EPAM может использовать для любых целей. Агрегированные данные могут быть получены из вашей личной информации, но не считаются личной информацией по закону, поскольку они прямо или косвенно не раскрывают вашу личность, за исключением случаев, когда EPAM объединяет или связывает агрегированные данные с вашей личной информацией, чтобы они могли прямо или косвенно идентифицировать вас;
+                                - information that is considered aggregated data, such as statistical or demographic data, which EPAM may use for any purpose. The aggregated data may be derived from your personal information, but is not considered personal information by law as it does not directly or indirectly reveal your identity, except when EPAM combines or links the aggregated data with your personal information so that they can directly or indirectly identify you;
                                 <br />
-                                EPAM собирает технические данные от различных третьих лиц и общедоступных источников, таких как:
-                                <br /> - провайдеры аналитики
-                                <br />- рекламные сети
-                                <br />- провайдеры поисковой информации
+                                EPAM collects technical data from various third parties and public sources such as:
+                                <br /> - analytics providers
+                                <br />
+                                <br />- providers of search information
 
                             </p>
                             <p>
-                                За исключением случаев, когда это требуется по закону, веб-сайты EPAM не собирают какие-либо специальные категории личной информации о вас (включая данные о вашей расе или этнической принадлежности, религиозных или философских убеждениях, сексуальной жизни, сексуальной ориентации, политических взглядах, членстве в профсоюзах, информацию о ваше здоровье и генетические и биометрические данные). EPAM не будет собирать информацию о судимостях и правонарушениях.
+                                Except as required by law, EPAM websites do not collect any special categories of personal information about you (including data about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, membership in trade unions, information about your health and genetic and biometric data). EPAM will not collect information about criminal convictions or misdemeanors.
                             </p>
                             <p>
-                                EPAM будет использовать вашу личную информацию только в тех целях, для которых она была собрана, за исключением случаев, когда она разумно считает, что ей необходимо использовать ее по другой причине, совместимой с первоначальной целью. Если EPAM потребуется использовать вашу личную информацию для несвязанной с этим цели, EPAM уведомит вас и объяснит правовую основу, позволяющую EPAM это делать.
+                                EPAM will only use your personal information for the purposes for which it was collected, unless it reasonably believes it needs to use it for another reason consistent with the original purpose. If EPAM needs to use your personal information for an unrelated purpose, EPAM will notify you and explain the legal basis that allows EPAM to do so.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ОБМЕН ИНФОРМАЦИЕЙ</h5>
+                            <h5 className="services-sm-title mb-25">INFORMATION EXCHANGE</h5>
                             <p>
-                                EPAM может раскрывать вашу личную информацию следующим категориям получателей:
+                                EPAM may disclose your personal information to the following categories of recipients:
                                 <br />
-                                - компаниям, входящим в ее группу, профессиональным консультантам, сторонним поставщикам услуг и партнерам, которые предоставляют EPAM услуги по обработке данных (например, для поддержки доставки, предоставления функций или помощи в повышении безопасности веб-сайтов EPAM) или которые иным образом обрабатывают личную информацию для целей, описанных в Уведомлении о конфиденциальности или уведомленных вами, когда EPAM собирает вашу личную информацию. Список текущих компаний группы EPAM предоставляется по запросу.
+                                - companies within its group, professional consultants, third partyservice providers and partners who provide data processing services to EPAM (for example, to support delivery, provide features, or help improve the security of EPAM websites) or who otherwise process personal information for the purposes described in the Privacy Notice or notified to you, when EPAM collects your personal information. A list of current EPAM group companies is available upon request.
                                 <br />
-                                - любому компетентному правоохранительному органу, регулирующему органу, государственному учреждению, суду или другой третьей стороне, если EPAM считает, что раскрытие информации необходимо (a) в соответствии с применимым законодательством или нормативным актом, (b) для осуществления, установления или защиты своих законных прав, или ( в) для защиты своих жизненно важных интересов или интересов любого другого лица.
+                                - to any competent law enforcement agency, regulatory agency, government agency, court or other third party if EPAM believes disclosure is necessary (a) to comply with applicable law or regulation, (b) to exercise, establish or defend its legal rights or (c) to protect their vital interests or the interests of any other person.
                                 <br />
-                                - любому другому лицу с вашего согласия на раскрытие.
+                                - to any other person with your consent to the disclosure.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ПРАВОВАЯ ОСНОВА ОБРАБОТКИ</h5>
+                            <h5 className="services-sm-title mb-25">LEGAL BASIS OF PROCESSING</h5>
                             <p>
-                                Если ваша личная информация защищена законодательством ЕС о защите данных, правовая основа для сбора и использования EPAM личной информации, описанной выше, будет зависеть от соответствующей личной информации и конкретного контекста, в котором EPAM ее собирает.
+                                Where your personal information is protected by EU data protection law, the legal basis for EPAM's collection and use of the personal information described above will depend on the relevant personal information and the particular context in which EPAM collects it.
                             </p>
                             <p>
-                                Тем не менее, EPAM, как правило, собирает личную информацию от вас только (а) в тех случаях, когда она нужна ей для выполнения контракта с вами, (б) когда обработка соответствует ее законным интересам и не нарушает ваши права, или (в) если у него есть на это ваше согласие. В некоторых случаях у EPAM также может быть юридическое обязательство собирать личную информацию от вас или она может нуждаться в личной информации иным образом для защиты ваших жизненно важных интересов или интересов другого лица.
+                                However, EPAM generally collects personal information from you only (a) when it needs it to perform a contract with you, (b) when the processing is in its legitimate interests and does not violate your rights, or (c ) if he has your consent to this. In some cases, EPAM may also have a legal obligation to collect personal information from you or may otherwise need the personal information to protect your vital interests or those of another.
                             </p>
                             <p>
-                                Если у вас есть вопросы или вам нужна дополнительная информация о правовых основаниях, на которых EPAM собирает и использует вашу личную информацию, свяжитесь с EPAM, используя контактную информацию, указанную в разделе «Контактная информация» ниже и в правой колонке.
-                            </p>
-
-                            <h5 className="services-sm-title mb-25">ИСПОЛЬЗОВАНИЕ ИНФОРМАЦИИ</h5>
-                            <p>
-                                Любая информация, собираемая EPAM, будет обрабатываться в соответствии с настоящей Политикой конфиденциальности в целях принятия более эффективных бизнес-решений, поддержки выбранной вами деятельности и предоставления более качественных решений и услуг клиентам EPAM. EPAM использует информацию о вашем местоположении, чтобы адаптировать ваш опыт работы с веб-сайтами EPAM. Он также может использовать любую неличную информацию, собранную для улучшения веб-сайтов EPAM, и ваш IP-адрес для диагностики и администрирования веб-сайта. EPAM будет хранить вашу личную информацию только до тех пор, пока это необходимо для достижения целей, для которых она была собрана, в том числе для выполнения любых юридических требований, требований бухгалтерского учета или отчетности.
-                            </p>
-                            <p>
-                                Чтобы определить надлежащий срок хранения личной информации, EPAM учитывает объем, характер и конфиденциальность личной информации, потенциальный риск причинения вреда в результате несанкционированного использования или раскрытия вашей личной информации, цели, для которых EPAM обрабатывает вашу личную информацию, и возможность он может достичь этих целей с помощью других средств и применимых требований законодательства.
+                                If you have questions or would like more information about the legal basis on which EPAM collects and uses your personal information, please contact EPAM using the contact information provided in the "Contact Information" section below and in the right column.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">МЕЖДУНАРОДНЫЕ ПЕРЕВОДЫ</h5>
+                            <h5 className="services-sm-title mb-25">USE OF INFORMATION</h5>
                             <p>
-                                EPAM обрабатывает информацию на серверах во многих странах мира, и вы даете согласие на обработку вашей личной информации на сервере, расположенном за пределами страны, в которой вы проживаете. В этих странах могут действовать законы о защите данных, которые отличаются от законов вашей страны (и в некоторых случаях могут не обеспечивать такой защиты). Тем не менее, EPAM приняла соответствующие меры предосторожности, чтобы потребовать, чтобы ваша личная информация оставалась защищенной в соответствии с настоящей Политикой конфиденциальности, в том числе с использованием Стандартных договорных условий Европейской комиссии для передачи личной информации между компаниями ее группы, которые требуют, чтобы все компании группы защищали личную информацию. обработка информации из Европейской экономической зоны в соответствии со стандартом, эквивалентным стандарту, требуемому в соответствии с законодательством Европейского Союза о защите данных.
+                                Any information collected by EPAM will be treated in accordance with this Privacy Policy in order to make better business decisions, support your chosen activities, and provide better solutions and services to EPAM customers. EPAM uses information about your location to tailor your experience on EPAM websites. It may also use any non-personal information collected to improve the EPAM websites and your IP address to diagnose and administer the website. EPAM will only retain your personal information for as long as necessary to fulfill the purposes for which it was collected, including to comply with any legal, accounting or reporting requirements.
+                            </p>
+                            <p>
+                                In order to determine the appropriate retention period for personal information, EPAM considers the scope, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of your personal information, the purposes for which EPAM processes your personal information, and the ability it can achieve those purposes with other means and applicable legal requirements.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТИ</h5>
+                            <h5 className="services-sm-title mb-25">INTERNATIONAL TRANSLATIONS</h5>
                             <p>
-                                EPAM защищает вашу личную информацию так же, как и другую конфиденциальную информацию, например, храня ее на защищенных серверах, доступ к которым есть только у избранных сотрудников EPAM, и путем ее шифрования для предотвращения доступа посторонних лиц. EPAM внедрила процедуры для борьбы с любой утечкой личной информации и уведомит вас и любого применимого регулирующего органа о нарушении, когда это требуется по закону.
+                                EPAM processes information on servers in many countries around the world, and you consent to the processing of your personal information on a server located outside the country in which you reside. These countries may have data protection laws that differ from those in your country (and in some cases may not provide such protection). However, EPAM has taken appropriate precautions to require that your personal information remain protected in accordance with this Privacy Policy, including using the European Commission's Standard Contractual Clauses for transfers of personal information between its group companies, which require that all group companies protect personal information. processing information from the European Economic Area in accordance with the standardequivalent to the standard required under European Union data protection law.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ССЫЛКИ</h5>
+                            <h5 className="services-sm-title mb-25">INFORMATION SECURITY</h5>
                             <p>
-                                Веб-сайты EPAM содержат ссылки, подключаемые модули и приложения на различные сторонние веб-сайты. Нажатие на эти ссылки или включение этих подключений может позволить третьим лицам собирать или передавать данные о вас. EPAM не контролирует и не несет ответственности за содержание, политику конфиденциальности или надежность таких сторонних подключений. Когда вы покидаете веб-сайт EPAM, EPAM рекомендует вам ознакомиться с уведомлением о конфиденциальности и политикой конфиденциальности каждого веб-сайта, который вы посещаете.
+                                EPAM protects your personal information in the same way as other sensitive information, for example by storing it on secure servers that only selected EPAM employees have access to and by encrypting it to prevent unauthorized access. EPAM has implemented procedures to deal with any breach of personal information and will notify you and any applicable regulatory authority of a breach when required by law.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ВАШИ ПРАВА НА ЗАЩИТУ ДАННЫХ</h5>
+                            <h5 className="services-sm-title mb-25">LINKS</h5>
                             <p>
-                                Если ваша личная информация защищена законодательством ЕС о защите данных, у вас есть следующие права на защиту данных, которые вы можете реализовать, связавшись с EPAM, используя контактную информацию, указанную в разделе «Контактная информация» ниже и в правой колонке:
+                                The EPAM websites contain links, plug-ins and applications to various third party websites. Clicking on these links or enabling these connections may allow third parties to collect or share data about you. EPAM does not control and is not responsible for the content, privacy practices, or reliability of such third party connections. When you leave an EPAM website, EPAM encourages you to read the privacy notice and privacy policy of each website you visit.
+                            </p>
+
+                            <h5 className="services-sm-title mb-25">YOUR DATA PROTECTION RIGHTS</h5>
+                            <p>
+                                If your personal information is protected by EU data protection law, you have the following data protection rights, which you can exercise by contacting EPAM using the contact information provided in the "Contact Information" section below and in the right column:
                                 <br />
-                                - Если вы хотите получить доступ, исправить, обновить или запросить удаление вашей личной информации, вы можете сделать это в любое время, связавшись с EPAM.
+                                - If you wish to access, correct, update or request deletion of your personal information, you may do so at any time by contacting EPAM.
                                 <br />
-                                - Кроме того, вы можете возразить против обработки вашей личной информации, попросить EPAM ограничить обработку вашей личной информации или запросить перенос вашей личной информации, связавшись с EPAM.
+                                - In addition, you may object to the processing of your personal information, ask EPAM to restrict the processing of your personal information, or request portability of your personal information by contacting EPAM.
                                 <br />
-                                - Вы имеете право в любое время отказаться от маркетинговых сообщений, которые вам отправляет EPAM. Вы можете воспользоваться этим правом, щелкнув ссылку «отписаться» или «отказаться» в маркетинговых электронных письмах, которые EPAM отправляет вам, или воспользовавшись соответствующим механизмом отказа для маркетинга, не основанного на электронной почте.
+                                - You have the right to opt out of marketing communications that EPAM sends you at any time. You can exercise this right by clicking on the "unsubscribe" or "opt out" link in marketing emails that EPAM sends to you, or by using the appropriate opt-out mechanism for non-email-based marketing.
                                 <br />
-                                - Аналогичным образом, если EPAM собрала и обработала вашу личную информацию на основании вашего согласия, вы можете отозвать свое согласие в любое время. Отзыв вашего согласия не повлияет на законность любой обработки EPAM, проведенной до вашего отзыва, а также не повлияет на обработку вашей личной информации, осуществляемую на законных основаниях для обработки, кроме согласия.
+                                - Likewise, if EPAM has collected and processed your personal information based on your consent, you may withdraw your consent at any time. Withdrawing your consent will not affect the lawfulness of any processing by EPAM prior to your withdrawal, nor will it affect the processing of your personal information carried out on lawful processing grounds other than consent.
                                 <br />
-                                - Вы имеете право подать жалобу в орган по защите данных на сбор и использование вашей личной информации компанией EPAM. Для получения дополнительной информации обратитесь в местный орган по защите данных.
+                                - You have the right to complain to a data protection authority about the collection and use of your personal information by EPAM. For more information, please contact your local data protection authority.
                             </p>
                             <p>
-                                Вам не нужно будет платить за доступ к вашей личной информации (или за осуществление любых других прав). Однако EPAM может взимать разумную плату или отказать в выполнении вашего запроса, если ваш запрос является явно необоснованным, повторяющимся или чрезмерным. EPAM старается отвечать на все законные запросы в течение одного месяца. Иногда это может занять больше времени, если ваш запрос особенно сложный или вы сделали несколько запросов. В этом случае EPAM уведомит вас и будет держать в курсе.
+                                You will not need to pay to access your personal information (or to exercise any other rights). However, EPAM may charge a reasonable fee or refuse to comply with your request if your request is manifestly unfounded, repetitive, or excessive. EPAM strives to respond to all legitimate inquiries within one month. Sometimes it can take longer if your request is particularly complex or if you have made multiple requests. In this case, EPAM will notify you and keep you informed.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ФАЙЛЫ COOKIE</h5>
+                            <h5 className="services-sm-title mb-25">COOKIES</h5>
                             <p>
-                                Вы можете настроить свой браузер так, чтобы он отказывался от всех или некоторых файлов cookie браузера или уведомлял вас, когда веб-сайты устанавливают или получают доступ к файлам cookie. Если вы отключите или откажетесь от файлов cookie, некоторые части веб-сайтов EPAM могут стать недоступными или работать неправильно. Дополнительную информацию о файлах cookie, которые использует EPAM, см. в Политике использования файлов cookie EPAM.
+                                You can set your browser to refuse all or some browser cookies, or to notify you when websites set or access cookies. If you disable or refuse cookies, some parts of the EPAM websites may become inaccessible or not function properly. For more information about the cookies that EPAM uses, please see the EPAM Cookie Policy.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">ИЗМЕНЕНИЯ В ПОЛИТИКЕ</h5>
+                            <h5 className="services-sm-title mb-25">POLICY CHANGES</h5>
                             <p>
-                                EPAM оставляет за собой право время от времени изменять или дополнять настоящую Политику конфиденциальности по своему усмотрению. Изменения можно посмотреть здесь или в другом месте на веб-сайтах EPAM. Ваше дальнейшее использование веб-сайтов EPAM означает ваше согласие с этими изменениями.
+                                EPAM leftreserves the right to change or supplement this Privacy Policy from time to time at its sole discretion. Changes can be viewed here or elsewhere on the EPAM websites. Your continued use of the EPAM websites constitutes your acceptance of these changes.
                             </p>
 
-                            <h5 className="services-sm-title mb-25">КОНТАКТНАЯ ИНФОРМАЦИЯ</h5>
+                            <h5 className="services-sm-title mb-25">CONTACT INFO</h5>
                             <p>
-                                Важно, чтобы имеющаяся у EPAM личная информация о вас была точной и актуальной. Пожалуйста, информируйте EPAM, если ваша личная информация изменится во время ваших отношений с EPAM. Кроме того, если у вас есть какие-либо вопросы относительно настоящей Политики конфиденциальности, практики веб-сайтов EPAM или вашего взаимодействия с EPAM через веб-сайты EPAM, обращайтесь по адресу:
+                                It is important that the personal information EPAM holds about you is accurate and up to date. Please keep EPAM informed if your personal information changes during your relationship with EPAM. In addition, if you have any questions regarding this Privacy Policy, the practices of the EPAM websites, or your interactions with EPAM through the EPAM websites, please contact:
                             </p>
                             <p>
-                                EPAM Systems, Inc. <br />
-                                Юниверсити Драйв, 41, офис 202 <br />
-                                Ньютаун, Пенсильвания, 18940 <br />
-                                Т: +1-267-759-9000 <br />
-                                Ф: +1-267-759-8989 <br />
-                                Электронная почта: privacy@epam.com <br />
+                                EPAM Systems Inc. <br />
+                                Office 202, 41 University Drive <br />
+                                Newtown, Pennsylvania, 18940 <br />
+                                T: +1-267-759-9000 <br />
+                                F: +1-267-759-8989 <br />
+                                Email: privacy@epam.com <br />
                             </p>
                         </div>
                     </div>
                 </div>
-            </div >
-            {/*Footer  */}
+            </div>
+            {/*Footer */}
             < Footer />
 
         </>

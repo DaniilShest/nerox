@@ -5,7 +5,7 @@ import ServicesMain from '../../components/Services';
 const Services = () => {
     return (
         <>
-            <SEO pageTitle="Услуги" />
+            <SEO pageTitle="Services" />
             <ServicesMain />
         </>
     );

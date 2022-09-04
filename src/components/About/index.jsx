@@ -13,7 +13,7 @@ const index = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="О NEROX" subtitle="О нас" />
+      <Breadcrumb title="About NEROX" subtitle="About Us" />
       <AboutArea />
       <AboutCounter />
       <CtaImages />

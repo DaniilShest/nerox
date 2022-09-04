@@ -8,10 +8,10 @@ const Cta = ({ padd }) => {
           <div className="row">
             <div className="col-xl-12">
               <div className="tp-photograper-cta-wrapper text-center">
-                <h3 className="tp-photograper-cta-title mb-20"><b>Не можете найти то, что ищете?</b></h3>
-                <p>Мы всегда ищем людей с уникальными навыками. Отправьте нам свое резюме, и мы свяжемся с вами,<br />  когда у нас появится вакансия, соответствующая вашим ожиданиям.</p>
+                <h3 className="tp-photograper-cta-title mb-20"><b>Can't find what you are looking for?</b></h3>
+                <p>We are always looking for people with unique skills. Send us your CV and we will contact you<br /> when we have a vacancy that meets your expectations.</p>
                 <div className="tp-cta-btn mt-25">
-                  <Link href="/contact"><a className="tp-solid-btn-square">Связаться с нами</a></Link>
+                  <Link href="/contact"><a className="tp-solid-btn-square">Contact us</a></Link>
                 </div>
               </div>
             </div>

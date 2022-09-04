@@ -18,10 +18,10 @@ const About = () => {
             <div className="col-xl-7 col-lg-7">
               <div className="tps-about tps-about-wrap">
                 <div className="tpbs-section-wrapper mb-30">
-                  <span className="tpbs-sub-title mb-15">О нас</span>
-                  <h3 className="tpbs-title">Увлеченная команда, которая заставляет технологии работать на ваш бизнес</h3>
+                  <span className="tpbs-sub-title mb-15">About us</span>
+                  <h3 className="tpbs-title">A passionate team that makes technology work for your business</h3>
                 </div>
-                <p className="ab-text mb-30">Мы с таким же энтузиазмом, как и вы, стремимся создавать технологические решения, которые могут не только способствовать развитию вашего бизнеса, но и изменить мир. За прошедшие годы мы помогли более чем 100 компаниям повлиять на миллионы людей по всему миру.</p>
+                <p className="ab-text mb-30">We are as passionate as you are about creating technology solutions that can not only help grow your business, but also change the world. Over the years, we have helped more than 100 companies impact millions of people around the world.</p>
                 <div className="features__list">
                   <ul>
                     <li className="d-flex align-items-center">
@@ -29,7 +29,7 @@ const About = () => {
                         <i className="far fa-check"></i>
                       </div>
                       <div className="features__list-text">
-                        <p>Мы предлагаем идеальные решения</p>
+                        <p>We offer ideal solutions</p>
                       </div>
                     </li>
                     <li className="d-flex align-items-center">
@@ -37,14 +37,14 @@ const About = () => {
                         <i className="far fa-check"></i>
                       </div>
                       <div className="features__list-text">
-                        <p>Работаем с мировыми брендами</p>
+                        <p>We work with global brands</p>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="tpbs-button mt-50">
                   <Link href="/about">
-                    <a className="tp-solid-btn">Узнать подробнее</a>
+                    <a className="tp-solid-btn">Learn more</a>
                   </Link>
                 </div>
               </div>

@@ -9,15 +9,15 @@ const AboutArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-content-2 pb-50">
                 <h3 className="tpabout-xd-title mb-15"><b>NER</b> CREATIVE</h3>
-                <span className="tpabout-xs-title mb-40">Веб-разработка для вашего бизнеса</span>
+                <span className="tpabout-xs-title mb-40">Web development for your business</span>
                 <p className="tpab-text">
-                  Мы начали путь в 2009 году как креативная юзабилити-студия. Каждый новый год, каждый клиент становились вызовами и давали стимул к развитию. Сейчас мы Brander — опытная команда разработчиков бизнес-решений.
+                  We are a digital transformation consultancy and software development company that provides cutting edge engineering solutions, helping Fortune 500 companies and enterprise clients untangle complex issues that always emerge during their digital evolution journey. Since 2007 we have been a visionary and a reliable software engineering partner for world-class brands.
                 </p>
                 <p>
-                  Наша миссия — искать и находить: точки роста, причинно-следственные связи, перспективные проекты, талантливых людей. Мы растём вместе с клиентами и строим нашу общую историю успеха. Анализируем каждый пиксель, байт и символ. Просеиваем бизнес-модели и решения через сито здравого смысла. Говорим всё как есть.
+                  Our mission is to seek and find: growth points, cause-and-effect relationships, promising projects, talented people. We grow together with customers and build our shared success story. We analyze every pixel, byte and character. Sifting business models and solutions through a sieve of common sense. We say everything as it is.
                 </p>
                 <div className="tpabout-btn mt-50">
-                  <Link href="/contact"><a className="tp-solid-btn">Связаться с нами</a></Link>
+                  <Link href="/contact"><a className="tp-solid-btn">Contact us</a></Link>
                 </div>
               </div>
             </div>

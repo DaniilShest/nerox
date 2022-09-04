@@ -79,14 +79,14 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                 <ul>
 
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/home"><a>Главная</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="/home"><a>Home</a></Link></li>
                   </div>
 
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>О нас</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>About</a></Link></li>
                   </div>
 
-                  <Collapsible trigger={<a>Услуги</a>} triggerTagName="div"
+                  <Collapsible trigger={<a>Services</a>} triggerTagName="div"
                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                     <ul
                       onClick={() => setShowSidebar(false)}
@@ -101,11 +101,11 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                   </Collapsible>
 
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/blog"><a>Блог</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="/blog"><a>Blog</a></Link></li>
                   </div>
 
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/careers"><a>Вакансии</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="/careers"><a>Jobs</a></Link></li>
                   </div>
                 </ul>
               </nav>

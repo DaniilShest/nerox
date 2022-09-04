@@ -33,7 +33,7 @@ const BlogDetails = () => {
             <>
                 <SEO pageTitle="Blog Details" />
                 <Header dynamic={true} />
-                <Breadcrumb dynamic={"/" + "assets/img/breadcrumb/breadcrumb-bg-1.jpg"} title="блог"
+                <Breadcrumb dynamic={"/" + "assets/img/breadcrumb/breadcrumb-bg-1.jpg"} title="blog"
                     subtitle={blogItem.title} />
 
                 <section className="postbox__area pt-120 pb-80">
@@ -78,7 +78,7 @@ const BlogDetails = () => {
                                         </div>
                                     </div> */}
                                     <div className="bolgd-tags-wrapper">
-                                        <h5 className="blogd-tag-title">Тэги:</h5>
+                                        <h5 className="blogd-tag-title">Tags:</h5>
                                         <div className="tags-list">
                                             {
                                                 blogItem.tags?.map(el => (

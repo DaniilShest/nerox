@@ -20,15 +20,15 @@ const JobListArea = () => {
                     <span className="job-name">{item.subtitle}</span>
                     <span className="job-state mt-100">
                       <Link href={`/careers/${item.url}`}>
-                        <a>Проектная работа</a>
+                        <a>Project work</a>
                       </Link>
                     </span>
                   </div>
                   <div className="col-xxl-4 col-xl-5 col-lg-6">
-                    <h5 className="job-list-sm-title mb-20">Зарплата: <br /><br /> от {item.salary}</h5>
+                    <h5 className="job-list-sm-title mb-20">Salary: <br /><br /> from {item.salary}</h5>
                     <div className="job-btn mt-40">
                       <Link href={`/careers/${item.url}`}>
-                        <a className="tp-solid-btn-square">Откликнуться</a>
+                        <a className="tp-solid-btn-square">Respond</a>
                       </Link>
                     </div>
                   </div>

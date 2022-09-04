@@ -12,8 +12,8 @@ const Services = () => {
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-10">
               <div className="tpbs-section-wrapper mb-30">
-                <span className="tpbs-sub-title mb-15">Наши услуги</span>
-                <h3 className="tpbs-title">Наш сервис оснащен <br />следующими решениями:</h3>
+                <span className="tpbs-sub-title mb-15">Our services</span>
+                <h3 className="tpbs-title">Our service is equipped with <br />the following solutions:</h3>
               </div>
             </div>
             <div className="col-xl-5 col-lg-5 col-md-2">
@@ -70,7 +70,7 @@ const Services = () => {
                             </h4>
                             <p>{item.text}</p>
                             <div className="tpservices__btn mt-30">
-                              <Link href={`/services/${item.url}`}>Подробнее</Link>
+                              <Link href={`/services/${item.url}`}>More</Link>
                             </div>
                           </div>
                         </div>

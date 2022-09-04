@@ -8,7 +8,7 @@ const index = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="БЛОГ" subtitle="Блог" />
+      <Breadcrumb title="BLOG" subtitle="Blog" />
       <BlogArea />
       <Footer />
     </>

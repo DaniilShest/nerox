@@ -29,8 +29,8 @@ const Footer = () => {
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="footer__widget footer-col-1">
                   <div className="tp-section-title">
-                    <span className="tp-sub-title mb-15">#Контактная информация</span>
-                    <h2 className="tp-title tp-title-df mb-20">Задайте вопрос</h2>
+                    <span className="tp-sub-title mb-15">#Contact Information</span>
+                    <h2 className="tp-title tp-title-df mb-20">Ask a question</h2>
                   </div>
                   <div className="footer__lists mt-40">
                     <div className="footer__list-item mb-40">
@@ -68,24 +68,24 @@ const Footer = () => {
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="footer__widget footer-col-2">
                   <div className="tp-section-title">
-                    <span className="tp-sub-title mb-15">#Связаться с нами</span>
-                    <h2 className="tp-title tp-title-df mb-20">Напишите нам</h2>
+                    <span className="tp-sub-title mb-15">#Contact us</span>
+                    <h2 className="tp-title tp-title-df mb-20">Write to us</h2>
                   </div>
                   <form id="contact-form" action="mail.php" method="POST">
                     <div className="contact-filed mb-20">
-                      <input id='name' value={values.name} onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Ваше имя" />
+                      <input id='name' value={values.name} onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Name" />
                       {touched.name && <ErrorMsg error={errors.name} />}
                     </div>
                     <div className="contact-filed mb-30">
-                      <input id='email' value={values.email} onChange={handleChange} onBlur={handleBlur} type="email" placeholder="Ваш Email" />
+                      <input id='email' value={values.email} onChange={handleChange} onBlur={handleBlur} type="email" placeholder="Email" />
                       {touched.email && <ErrorMsg error={errors.email} />}
                     </div>
                     <div className="contact-filed mb-25">
-                      <textarea id='msg' value={values.msg} onChange={handleChange} onBlur={handleBlur} placeholder="Напишите ваш вопрос"></textarea>
+                      <textarea id='msg' value={values.msg} onChange={handleChange} onBlur={handleBlur} placeholder="Write a question"></textarea>
                       {touched.msg && <ErrorMsg error={errors.msg} />}
                     </div>
                     <div className="form-submit">
-                      <button className="tp-grd-btn" type="submit">Отправить</button>
+                      <button className="tp-grd-btn" type="submit">Send</button>
                     </div>
                     <p className="ajax-response"></p>
                   </form>
@@ -98,12 +98,12 @@ const Footer = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-7">
-                <p>© 2022 Nerox - Студия веб-разработки. Все права защищены.</p>
+                <p>© 2022 Nerox - Web development studio. All rights reserved.</p>
               </div>
               <div className="col-xl-6 col-lg-5">
                 <div className="copyright-links">
                   <Link href="/privacy">
-                    <a >Политика конфиденциальности</a>
+                    <a>Privacy Policy</a>
                   </Link>
                 </div>
               </div>

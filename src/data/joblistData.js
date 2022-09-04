@@ -1,92 +1,92 @@
 export const jobListData = [
     {
         id: 1,
-        title: 'React разработчик',
-        subtitle: 'Удаленная работа',
+        title: 'React Developer',
+        subtitle: 'Remote work',
         url: 'react-developer',
-        salary: '1000$',
+        salary: '$1000',
         offer: [
-            "Работа из дома.",
-            "Достойную оплату, оформление по ТК, оплата переработок.",
-            "Интересные задачи, которые помогают развиваться.",
-            "Карьерный и профессиональный рост.",
-            "Оплата литературы, семинаров, конференций для профессионального развития.",
-            "Дружный коллектив без лишних формальностей и субординаций."
+            "Work from home.",
+            "Decent pay, registration according to the Labor Code, payment for processing.",
+            "Interesting tasks that help to develop.",
+            "Career and professional growth.",
+            "Payment for literature, seminars, conferences for professional development.",
+            "Friendly team without unnecessary formalities and subordination."
         ],
         requirements: [
-            "Иметь реальный опыт работы front - end разработчиком от 3 - х лет.",
+            "Have real experience as a front-end developer for at least 3 years.",
             "JS, HTML5, CSS3.",
-            "Опыт работы с классовыми компонентами и хуками React.",
-            "Опыт работы с Typescript, Webpack, git.",
-            "CSS - препроцессор SCSS.",
-            "Быть перфекционистом в лучшем значении этого слова.Каждая мелочь имеет значение, работу надо не просто сделать, а сделать на отлично."
+            "Experience with class components and React hooks.",
+            "Experience with Typescript, Webpack, git.",
+            "CSS - SCSS preprocessor.",
+            "To be a perfectionist in the best sense of the word. Every little thing matters, the work must not just be done, but done perfectly."
         ]
     },
     {
         id: 2,
-        title: 'Backend разработчик',
-        subtitle: 'Удаленная работа',
+        title: 'Backend Developer',
+        subtitle: 'Remote work',
         url: 'backend-developer',
-        salary: '1100$',
+        salary: '$1100',
         offer: [
-            "Обучение.",
-            "Удаленная работа.",
-            "Дружный коллектив.",
-            "Комфортные рабочие условия.",
-            "Постоянное повышение Скила."
+            "Education.",
+            "Distant work.",
+            "Friendly team.",
+            "Comfortable working conditions.",
+            "Permanent increase in Skill."
         ],
         requirements: [
-            "Опыт Node.js от 2 лет.",
-            "Базы данных postgreSQL, MySQL, redis.",
-            "Знакомство с инфраструктурой: Linux, Docker, Nginx.",
-            "Умение работать с git, системами сборки и деплоя (gitlab, CI/CD).",
-            "Умение давать оценку сроков выполнения задач и соблюдать их, вовремя сигнализировать о проблемах.",
-            "Навыки документирования кода.",
-            "Огромное желание расти и развиваться профессионально"
+            "Node.js experience from 2 years.",
+            "Databases postgreSQL, MySQL, redis.",
+            "Familiarity with the infrastructure: Linux, Docker, Nginx.",
+            "Ability to work with git, build and deploy systems (gitlab, CI/CD).",
+            "Ability to evaluate the deadlines for completing tasks and comply with them, signal problems in time.",
+            "Code documentation skills.",
+            "Great desire to grow and develop professionally"
         ]
     },
     {
         id: 3,
-        title: 'SEO специалист',
-        subtitle: 'Удаленная работа',
+        title: 'SEO Specialist',
+        subtitle: 'Remote work',
         url: 'seo-specialist',
-        salary: '850$',
+        salary: '$850',
         offer: [
-            "Широкий выбор необходимых инструментов и ресурсов для успешного ведения проектов.",
-            "Обучение за счёт компании, посещение профильных конференций, проходящих в России и странах ближнего зарубежья.",
-            "Собственное развитие и повышение Вашей квалификации в сфере интернет-технологий и IT. Вы станете частью профессиональной и предприимчивой команды, стремящейся стать лидером на рынке интернет-технологий."
+            "Wide range of necessary tools and resources for successful project management.",
+            "Training at the expense of the company, attending specialized conferences held in Russia and neighboring countries.",
+            "Your own development and improvement of your skills in the field of Internet technologies and IT. You will become part of a professional and entrepreneurial team striving to become a leader in the Internet technologies market."
         ],
         requirements: [
-            "Понимание основ сайтостроения и основных каналов привлечения трафика.",
-            "Опыт работы с программами Key Collector, Netpeak Spider или Screaming Frog.",
-            "Умение составлять семантическое ядро без мусора и распределять запросы по группам.",
-            "Понимание того, как работают поисковые системы и какие есть факторы, влияющие на ранжирование.",
-            "Желателен опыт работы с покупкой ссылок или другими способами их получения.",
-            "Грамотный письменный русский язык, умение просто и понятно излагать свои мысли"
+            "Understanding the basics of website building and the main channels for attracting traffic.",
+            "Experience with Key Collector, Netpeak Spider or Screaming Frog.",
+            "The ability to compose a semantic core without garbage and distribute queries into groups.",
+            "Understanding how search engines work and what are the factors that affect rankings.",
+            "Experience with buying links or other ways to get them is desirable.",
+            "Competent written Russian, the ability to express one's thoughts simply and clearly"
         ]
     },
     {
         id: 4,
-        title: 'React native разработчик',
-        subtitle: 'Удаленная работа',
+        title: 'React Native Developer',
+        subtitle: 'Remote work',
         url: 'react-native-developer',
-        salary: '1150$',
+        salary: '$1150',
         offer: [
-            "Интересная работа в стабильной и активно развивающейся компании.",
-            "Молодой, дружный коллектив.",
-            "Участие в больших и амбициозных проектах.",
-            "Прогрессивная система оплаты труда"
+            "Interesting job in a stable and rapidly growing company.",
+            "Young, friendly staff",
+            "Participation in large and ambitious projects.",
+            "Progressive wage system"
         ],
         requirements: [
-            "Уверенные знания JavaScript ES6.",
-            "Знание и понимание React / React Native и Redux.",
-            "Понимание DOM management, Virtual DOM.",
-            "Опыт работы с клиент-серверными приложениями (REST API, JSON).",
-            "Практическое знание Git.",
-            "Опыт публикации приложений iOS / Android",
-            "Понимание шаблонов ООП (design patterns) и принципов SOLID.",
-            "Умение быстро осваивать новые технологии.",
-            "Вовлеченность в развитие проекта"
+            "Strong knowledge of JavaScript ES6.",
+            "Knowledge and understanding of React / React Native and Redux.",
+            "Understanding DOM management, Virtual DOM.",
+            "Experience with client-server applications (REST API, JSON).",
+            "Practical knowledge of Git.",
+            "Experience in publishing iOS / Android applications",
+            "Understanding OOP design patterns and SOLID principles.",
+            "Ability to quickly master new technologies.",
+            "Involvement in the development of the project"
         ]
     }
 ]

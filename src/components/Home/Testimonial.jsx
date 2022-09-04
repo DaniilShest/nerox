@@ -7,20 +7,20 @@ const Testimonial = () => {
     {
       id: 1,
       img: 'assets/img/testimonial/3/ts-1.jpg',
-      desc: <>“Я ценю ваши замечательные услуги и профессиональный персонал за всю вашу тяжелую работу и творческое мышление! Было весело, и я надеюсь, что скоро снова поработаю с вами.“</>,
-      name: 'Смирнов Дмитрий'
+      desc: <>“I appreciate your wonderful services and professional staff for all your hard work and creative thinking! It was fun and I hope to work with you again soon.“</>,
+      name: 'Steven Richards'
     },
     {
       id: 2,
       img: 'assets/img/testimonial/3/ts-2.jpg',
-      desc: <>“В оговоренные сроки мы получили готовый сайт, отвечающий всем нашим требованиям, и синхронизированный со специфичными модулями для сферы туризма. Уже на протяжении полугода мы получаем заявки клиентов с сайта, затраты на сайт окупились в течение первого месяца.“</>,
-      name: 'Ковалев Даниил'
+      desc: <>“Within the agreed timeframe, we received a ready-made website that meets all our requirements and is synchronized with specific modules for the tourism industry. For half a year we have been receiving customer applications from the site, the costs of the site paid off within the first month.“</>,
+      name: 'David Lopez'
     },
     {
       id: 3,
       img: 'assets/img/testimonial/3/ts-3.jpg',
-      desc: <>“В 2021 году мы обратились в агентство Nerox для разработки СЕО сайта для нашей международной транспортной компании Nerox. В результате мы получили удобный и современный сайт с уникальными текстами в оговоренные сроки, а также настройку контекстной рекламы. Мы рекомендуем агентство нашим партнерам и филиалам в других странах.“</>,
-      name: 'Волков Игорь'
+      desc: <>“In 2021, we turned to the Nerox agency to develop an SEO website for our international transport company Nerox. As a result, we got a convenient and modern website with unique texts within the agreed time frame, as well as setting up contextual advertising. We recommend the agency to our partners and affiliates in other countries.“</>,
+      name: 'Justin Weber'
     },
   ]
   return (

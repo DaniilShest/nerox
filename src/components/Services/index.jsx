@@ -13,7 +13,7 @@ const index = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="НАШИ УСЛУГИ" subtitle="Услуги" />
+      <Breadcrumb title="OUR SERVICES" subtitle="Services" />
       <ServicesList />
       <ServicesBanner />
       <Testimonial padd="services-padd" />
